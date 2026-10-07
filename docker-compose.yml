@@ -1,0 +1,18 @@
+# Coolify service "chronik" on VPS 3 (project privat-chronik). nginx serves the snapshot that
+# publish.sh copies from the laptop into the volume. Tailnet only, through the router
+# chronik-tailnet in /data/coolify/proxy/dynamic/tailnet-only.yaml.
+services:
+  chronik:
+    image: nginx:1.30.5-alpine
+    environment:
+      - SERVICE_URL_CHRONIK_80
+    volumes:
+      - chronik-site:/usr/share/nginx/html:ro
+    healthcheck:
+      test: ["CMD", "wget", "-q", "--spider", "http://127.0.0.1/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+volumes:
+  chronik-site:

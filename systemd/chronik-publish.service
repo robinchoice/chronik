@@ -1,0 +1,7 @@
+[Unit]
+Description=Publish the project chronicle to chronik.pleasance.org
+
+[Service]
+Type=oneshot
+Environment=SSH_AUTH_SOCK=%t/keyring/ssh
+ExecStart=%h/dev/chronik/publish.sh

@@ -1,0 +1,108 @@
+{
+  "robin-wahl.de": {
+    "name": "robin-wahl.de",
+    "color": "#9A98A3"
+  },
+  "pleasance": {
+    "name": "Pleasance",
+    "color": "band"
+  },
+  "doenerapp": {
+    "name": "Döner",
+    "color": "#F3BA4D"
+  },
+  "personal-vault": {
+    "name": "Ring 0 Vault",
+    "color": "#9A98A3"
+  },
+  "robin-work": {
+    "name": "Ring 1 beruflich",
+    "color": "#9A98A3"
+  },
+  "robin-private": {
+    "name": "Ring 1 privat",
+    "color": "#9A98A3"
+  },
+  "music-hub": {
+    "name": "Music Hub",
+    "color": "#F97F4A"
+  },
+  "ai-engineering": {
+    "name": "ai-engineering",
+    "color": "#9A98A3"
+  },
+  "openclaw": {
+    "name": "OpenClaw",
+    "color": "#9A98A3"
+  },
+  "fahrbar": {
+    "name": "fahrbar",
+    "color": "#F45E57"
+  },
+  "docpilot": {
+    "name": "DocPilot",
+    "color": "#4DBBE2"
+  },
+  "khala": {
+    "name": "Khala",
+    "color": "#B499F4"
+  },
+  "k4-pm": {
+    "name": "k4-pm",
+    "color": "#9A98A3"
+  },
+  "savor": {
+    "name": "Savor",
+    "color": "#8C93F7"
+  },
+  "bibliothek": {
+    "name": "Bibliothek",
+    "color": "#9A98A3"
+  },
+  "turbine": {
+    "name": "Turbine",
+    "color": "#9A98A3"
+  },
+  "New AI Setup": {
+    "name": "Infra-Setup",
+    "color": "#9A98A3"
+  },
+  "musichub-plugin": {
+    "name": "Music Hub Plugin",
+    "color": "#F99747"
+  },
+  "starter": {
+    "name": "Starter",
+    "color": "band"
+  },
+  "musicstreaming-connector": {
+    "name": "MusicLink",
+    "color": "#64CC9E"
+  },
+  "fieldtest": {
+    "name": "Fieldtest",
+    "color": "#ACC870"
+  },
+  "stackarena": {
+    "name": "Stackarena"
+  },
+  "agentshop": {
+    "name": "Agentshop"
+  },
+  "lighthouse": {
+    "name": "Lighthouse",
+    "color": "#9E95F6"
+  },
+  "agents": {
+    "name": "Agents",
+    "color": "#AE97F4"
+  },
+  "blenderlab": {
+    "name": "Blenderlab",
+    "color": "#9A98A3"
+  },
+  "chronik": {
+    "name": "Chronik",
+    "color": "#50C3C9"
+  }
+}
