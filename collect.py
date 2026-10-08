@@ -23,7 +23,7 @@ def git(repo, *args):
 
 def repos():
     for path in sorted(DEV.iterdir()):
-        if path.name.startswith((".", "_")) or not (path / ".git").exists():
+        if path.is_symlink() or path.name.startswith((".", "_")) or not (path / ".git").exists():
             continue
         yield path
 

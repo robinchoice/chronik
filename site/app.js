@@ -26,7 +26,7 @@ const T = {
 };
 const VIEWS = ["timeline", "lanes", "calendar"];
 const BAND = ["#F2545B", "#FB8C45", "#F2C14E", "#6CCF8E", "#46BFE0", "#8E92F8", "#C39BF2"];
-const INFRA = "New AI Setup";
+const INFRA = "kontor";
 
 let lang = localStorage.getItem("lang") || (navigator.language.startsWith("de") ? "de" : "en");
 let D;

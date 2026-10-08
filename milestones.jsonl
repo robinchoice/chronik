@@ -4,40 +4,40 @@
 {"at":"2026-10-01 16:12","repo":"pleasance","kind":"milestone","title":"Formulare über eigene API und Proton SMTP"}
 {"at":"2026-10-01 17:15","repo":"doenerapp","kind":"milestone","title":"Konto-Pflicht und persönliche Einladungslinks"}
 {"at":"2026-10-01 19:03","repo":"music-hub","kind":"milestone","title":"Live-Betrieb gehärtet: Rate-Limits, E-Mail-Bestätigung"}
-{"at":"2026-10-02 20:47","repo":"New AI Setup","kind":"milestone","title":"infra.md wird Soll-Dokument, dazu infra-check.sh","big":true}
-{"at":"2026-10-02 21:21","repo":"New AI Setup","kind":"milestone","title":"Security-Advisory-Alarm für VPS 1"}
+{"at":"2026-10-02 20:47","repo": "kontor","kind":"milestone","title":"infra.md wird Soll-Dokument, dazu infra-check.sh","big":true}
+{"at":"2026-10-02 21:21","repo": "kontor","kind":"milestone","title":"Security-Advisory-Alarm für VPS 1"}
 {"at":"2026-10-02 22:06","repo":"fahrbar","kind":"milestone","title":"ADR 003: Geschäftsmodell"}
 {"at":"2026-10-02 22:56","repo":"music-hub","kind":"milestone","title":"Zugang nur noch mit Einladung"}
 {"at":"2026-10-02 23:15","repo":"savor","kind":"release","tag":"v0.3.0","title":"Codex, ACP-Agents, Queue","big":true}
-{"at":"2026-10-02 23:45","repo":"New AI Setup","kind":"milestone","title":"2FA-Rollout abgeschlossen"}
+{"at":"2026-10-02 23:45","repo": "kontor","kind":"milestone","title":"2FA-Rollout abgeschlossen"}
 {"at":"2026-10-02 23:47","repo":"doenerapp","kind":"milestone","title":"Neue Richtung: Startseite, Stadt-Ranking, Check-in","big":true}
 {"at":"2026-10-03 00:01","repo":"savor","kind":"release","tag":"v0.4.0","title":"Worktrees, Workflow-Galerie"}
-{"at":"2026-10-03 01:37","repo":"New AI Setup","kind":"milestone","title":"GlitchTip in allen Apps"}
-{"at":"2026-10-03 14:46","repo":"New AI Setup","kind":"move","title":"Umzug auf pleasance.org, Coolify privat/Pleasance getrennt"}
+{"at":"2026-10-03 01:37","repo": "kontor","kind":"milestone","title":"GlitchTip in allen Apps"}
+{"at":"2026-10-03 14:46","repo": "kontor","kind":"move","title":"Umzug auf pleasance.org, Coolify privat/Pleasance getrennt"}
 {"at":"2026-10-04 13:32","repo":"musicstreaming-connector","kind":"milestone","title":"MusicLink V1 für Apple Music und YouTube Music","big":true}
 {"at":"2026-10-04 14:14","repo":"music-hub","kind":"milestone","title":"AGPL-3.0 und Anleitung zum Selbsthosten"}
 {"at":"2026-10-04 17:14","repo":"doenerapp","kind":"milestone","title":"Bug-Report mit Screenshot von jedem Screen"}
 {"at":"2026-10-04 17:15","repo":"savor","kind":"release","tag":"v0.5.0","title":"macOS-Installer"}
-{"at":"2026-10-04 17:53","repo":"New AI Setup","kind":"milestone","title":"Apple-CI-Secrets zentral"}
+{"at":"2026-10-04 17:53","repo": "kontor","kind":"milestone","title":"Apple-CI-Secrets zentral"}
 {"at":"2026-10-04 23:24","repo":"savor","kind":"release","tag":"v0.6.0","title":"Graphit-Look","big":true}
 {"at":"2026-10-05 12:37","repo":"starter","kind":"milestone","title":"Pleasance-Designfamilie für neue Prototypen","big":true}
-{"at":"2026-10-05 12:59","repo":"New AI Setup","kind":"milestone","title":"Nacht-Review über alle Repos, Codex prüft und fixt"}
-{"at":"2026-10-05 13:14","repo":"New AI Setup","kind":"move","title":"VPS 3 aufgesetzt","big":true}
+{"at":"2026-10-05 12:59","repo": "kontor","kind":"milestone","title":"Nacht-Review über alle Repos, Codex prüft und fixt"}
+{"at":"2026-10-05 13:14","repo": "kontor","kind":"move","title":"VPS 3 aufgesetzt","big":true}
 {"at":"2026-10-05 13:17","repo":"robin-wahl.de","kind":"milestone","title":"Statische Seite statt Quartz"}
 {"at":"2026-10-05 14:16","repo":"music-hub","kind":"milestone","title":"Mixer: alle Versionen synchron","big":true}
 {"at":"2026-10-05 15:52","repo":"starter","kind":"milestone","title":"Deutsch/Englisch für jeden Prototyp"}
 {"at":"2026-10-05 15:57","repo":"savor","kind":"milestone","title":"Landingpage savor.pleasance.org"}
-{"at":"2026-10-05 16:30","repo":"New AI Setup","kind":"move","title":"Gitea auf VPS 3"}
+{"at":"2026-10-05 16:30","repo": "kontor","kind":"move","title":"Gitea auf VPS 3"}
 {"at":"2026-10-05 16:35","repo":"pleasance","kind":"milestone","title":"KI-Agenten-Kurs und Werkbank"}
 {"at":"2026-10-05 22:06","repo":"savor","kind":"milestone","title":"Web-Push auf gekoppelte Geräte"}
 {"at":"2026-10-05 23:00","repo":"savor","kind":"milestone","title":"Fan-out, Diff-Review, Terminal","big":true}
-{"at":"2026-10-06 12:07","repo":"New AI Setup","kind":"milestone","title":"Plan: Ausstieg aus Google"}
-{"at":"2026-10-06 12:10","repo":"New AI Setup","kind":"move","title":"Pi-hole auf pi-a mit Replica"}
+{"at":"2026-10-06 12:07","repo": "kontor","kind":"milestone","title":"Plan: Ausstieg aus Google"}
+{"at":"2026-10-06 12:10","repo": "kontor","kind":"move","title":"Pi-hole auf pi-a mit Replica"}
 {"at":"2026-10-06 13:45","repo":"savor","kind":"release","tag":"v0.6.7","title":"macOS signiert und notarisiert"}
-{"at":"2026-10-06 14:01","repo":"New AI Setup","kind":"move","title":"Nextcloud auf VPS 3"}
+{"at":"2026-10-06 14:01","repo": "kontor","kind":"move","title":"Nextcloud auf VPS 3"}
 {"at":"2026-10-06 14:38","repo":"music-hub","kind":"milestone","title":"Admin-Seiten: Lagebild, Nutzer, Protokoll"}
 {"at":"2026-10-06 14:48","repo":"savor","kind":"milestone","title":"Releases per npm run release"}
-{"at":"2026-10-06 20:08","repo":"New AI Setup","kind":"move","title":"Vaultwarden auf VPS 3"}
+{"at":"2026-10-06 20:08","repo": "kontor","kind":"move","title":"Vaultwarden auf VPS 3"}
 {"at":"2026-10-06 20:11","repo":"starter","kind":"milestone","title":"Designfamilie in Döner, fahrbar, Music Hub, MusicLink","big":true}
 {"at":"2026-10-06 20:18","repo":"savor","kind":"milestone","title":"Agenten schreiben anderen Konversationen","big":true}
 {"at":"2026-10-06 20:29","repo":"stackarena","kind":"milestone","title":"Live-Konferenz aller Contest-Läufe"}

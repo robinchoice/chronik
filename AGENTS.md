@@ -4,7 +4,7 @@
 
 - Chronik aller Repos in `~/dev`: Geburtsstunden (erster Commit), Releases (Versions-Tags), Commits pro Tag und kuratierte Meilensteine. Ansichten Zeitstrahl, Spuren, Kalender.
 - https://chronik.pleasance.org, nur aus dem Tailnet.
-- Coolify auf VPS 3: Projekt `privat-chronik`, Dienst `chronik` (nginx, Volume `chronik-site`). Betrieb und DNS: `~/dev/New AI Setup/infra.md`.
+- Coolify auf VPS 3: Projekt `privat-chronik`, Dienst `chronik` (nginx, Volume `chronik-site`). Betrieb und DNS: `~/dev/kontor/infra.md`.
 - Gebaut wie `robinchoice/agents`. Farbe und Zeichen nach `~/dev/starter/DESIGN.md` (Band 4,45–5,00).
 
 ## Checks
@@ -19,7 +19,7 @@
 
 ## Meilensteine pflegen
 
-- `milestones.jsonl`, eine Zeile pro Eintrag: `{"at": "2026-10-05 13:14", "repo": "New AI Setup", "kind": "milestone", "title": "VPS 3 aufgesetzt", "big": true}`.
+- `milestones.jsonl`, eine Zeile pro Eintrag: `{"at": "2026-10-05 13:14", "repo": "kontor", "kind": "milestone", "title": "VPS 3 aufgesetzt", "big": true}`.
 - `repo` ist der Ordnername in `~/dev`. `kind`: `milestone`, `move` (Umzug von Diensten) oder `release`. Ein `release` mit `"tag": "v0.6.0"` ergänzt nur die Beschreibung des Tags aus Git.
 - `big` markiert Höhepunkte, die der Filter „Nur Höhepunkte“ zeigt. Titel auf Deutsch, kurz, ohne Commit-Jargon.
 - Geburten und Releases nicht von Hand eintragen, die kommen aus Git. Stimmt der erste Commit nicht mit der echten Geburt überein, in `projects.json` `born` und `bornNote` setzen.
