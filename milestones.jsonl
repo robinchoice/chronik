@@ -43,3 +43,18 @@
 {"at":"2026-10-06 20:29","repo":"stackarena","kind":"milestone","title":"Live-Konferenz aller Contest-Läufe"}
 {"at":"2026-10-06 21:18","repo":"lighthouse","kind":"milestone","title":"Beszel-Hub, Deploy nur übers Tailnet"}
 {"at":"2026-10-06 21:26","repo":"agentshop","kind":"milestone","title":"Beamer-Checkout mit Live-Kontoauszug"}
+{"at":"2026-10-07 12:42","repo":"agents","kind":"milestone","title":"Agent-Setup-Dashboard auf agents.pleasance.org","big":true}
+{"at":"2026-10-07 13:33","repo":"savor","kind":"milestone","title":"All-Tab mit Übersicht, Inbox und Board","big":true}
+{"at":"2026-10-07 13:41","repo":"music-hub","kind":"milestone","title":"Offene Registrierung für bis zu 10 Konten"}
+{"at":"2026-10-07 14:45","repo":"starter","kind":"milestone","title":"Standards-Seite mit Namens- und Farbwerkbank"}
+{"at":"2026-10-07 15:46","repo":"lighthouse","kind":"milestone","title":"Backup-Übersicht in Lighthouse"}
+{"at":"2026-10-07 15:49","repo":"kontor","kind":"milestone","title":"SyncClipboard: eine Zwischenablage für alle Geräte"}
+{"at":"2026-10-07 16:05","repo":"kontor","kind":"milestone","title":"Globale Agent-Regeln versioniert im Repo"}
+{"at":"2026-10-08 00:37","repo":"kontor","kind":"milestone","title":"Feierabend räumt nachts vor dem Review auf"}
+{"at":"2026-10-08 12:33","repo":"records359","kind":"milestone","title":"359 Records und Klanglabor live"}
+{"at":"2026-10-08 13:08","repo":"kontor","kind":"milestone","title":"Aus New AI Setup wird das Kontor","big":true}
+{"at":"2026-10-08 15:26","repo":"musicstreaming-connector","kind":"milestone","title":"Freunde in App und Share-Extension"}
+{"at":"2026-10-08 17:08","repo":"savor","kind":"milestone","title":"Spracheingabe mit Parakeet V3 und Bug-Knopf"}
+{"at":"2026-10-08 20:38","repo":"kontor","kind":"milestone","title":"Grundsätze und Vision für alle Agenten","big":true}
+{"at":"2026-10-08 21:16","repo":"music-hub","kind":"milestone","title":"API zustandslos, Audio im eigenen Worker","big":true}
+{"at":"2026-10-08 22:00","repo":"kontor","kind":"milestone","title":"Nachtschicht mit Codex-Audit der Shell-Befehle","big":true}
