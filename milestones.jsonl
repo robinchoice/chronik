@@ -58,3 +58,16 @@
 {"at":"2026-10-08 20:38","repo":"kontor","kind":"milestone","title":"Grundsätze und Vision für alle Agenten","big":true}
 {"at":"2026-10-08 21:16","repo":"music-hub","kind":"milestone","title":"API zustandslos, Audio im eigenen Worker","big":true}
 {"at":"2026-10-08 22:00","repo":"kontor","kind":"milestone","title":"Nachtschicht mit Codex-Audit der Shell-Befehle","big":true}
+{"at":"2026-10-09 11:14","repo":"fahrbar","kind":"milestone","title":"Neubau auf dem starter-Stack für den Freiburger Pilot","big":true}
+{"at":"2026-10-09 12:20","repo":"music-hub","kind":"milestone","title":"Offene Tracks mit CC-Lizenz und Remixe als Fork","big":true}
+{"at":"2026-10-09 14:22","repo":"savor","kind":"milestone","title":"Nächtlicher Check gegen die neuesten Agent-CLIs"}
+{"at":"2026-10-09 14:51","repo":"kontor","kind":"milestone","title":"Arbeitsweise von Pleasance als Artefakte in model/"}
+{"at":"2026-10-10 14:48","repo":"records359","kind":"milestone","title":"Klanglabor mit Wandbild-Design und Studiofotos"}
+{"at":"2026-10-11 15:24","repo":"kontor","kind":"milestone","title":"Zettelkasten für das Warum hinter dem Setup"}
+{"at":"2026-10-11 15:36","repo":"audiocavern","kind":"milestone","title":"Landingpage für Audio Cavern, erster Kundenentwurf","big":true}
+{"at":"2026-10-11 16:04","repo":"khala","kind":"milestone","title":"Erste nachts geschürfte Ideen"}
+{"at":"2026-10-11 16:36","repo":"kontor","kind":"milestone","title":"Wochenrhythmus: Infra-Arbeit nur montags","big":true}
+{"at":"2026-10-11 16:41","repo":"music-hub","kind":"milestone","title":"Übersicht und erste Version nach der UX-Kritik neu"}
+{"at":"2026-10-11 17:57","repo":"savor","kind":"milestone","title":"Bug-Knopf legt private Issues direkt an"}
+{"at":"2026-10-11 18:28","repo":"savor","kind":"milestone","title":"Unbeaufsichtigte Läufe wechseln beim Usage-Limit den Agenten","big":true}
+{"at":"2026-10-12 00:02","repo":"kontor","kind":"milestone","title":"X-Redaktion mit neun Formaten"}
