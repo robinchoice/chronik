@@ -71,3 +71,11 @@
 {"at":"2026-10-11 17:57","repo":"savor","kind":"milestone","title":"Bug-Knopf legt private Issues direkt an"}
 {"at":"2026-10-11 18:28","repo":"savor","kind":"milestone","title":"Unbeaufsichtigte Läufe wechseln beim Usage-Limit den Agenten","big":true}
 {"at":"2026-10-12 00:02","repo":"kontor","kind":"milestone","title":"X-Redaktion mit neun Formaten"}
+{"at":"2026-10-12 12:50","repo":"kontor","kind":"milestone","title":"Grundsätze: Sicherheit zuerst, die Daten gehören den Kunden","big":true}
+{"at":"2026-10-12 13:28","repo":"savor","kind":"milestone","title":"Anonyme Zählung aktiver Installationen"}
+{"at":"2026-10-12 13:53","repo":"kontor","kind":"milestone","title":"Agenten kommen nur noch eingeschränkt auf die Server, nie an Kundendaten","big":true}
+{"at":"2026-10-12 14:04","repo":"kontor","kind":"milestone","title":"Wöchentlicher Restore-Test der Server-Backups"}
+{"at":"2026-10-12 14:24","repo":"savor","kind":"milestone","title":"Frei anordnbare Panels"}
+{"at":"2026-10-12 15:21","repo":"findyourlogic","kind":"milestone","title":"Version 1 mit Nostr-Login live","big":true}
+{"at":"2026-10-12 15:39","repo":"kontor","kind":"milestone","title":"Eigener Matrix-Server bündelt die Messenger"}
+{"at":"2026-10-12 16:32","repo":"starter","kind":"milestone","title":"Prototypen geschlossen bis zum Go, Tester per Einladung","big":true}
