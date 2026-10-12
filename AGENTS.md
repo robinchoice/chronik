@@ -2,7 +2,7 @@
 
 ## Zweck & Links
 
-- Chronik aller Repos in `~/dev`: Geburtsstunden (erster Commit), Releases (Versions-Tags), Commits pro Tag und kuratierte Meilensteine. Ansichten Zeitstrahl, Spuren, Kalender.
+- Chronik aller Repos in `~/dev`: Geburtsstunden (erster Commit), Releases (Versions-Tags), Commits pro Tag und kuratierte Meilensteine. Ansichten Zeitstrahl, Spuren, Kalender, dazu die Chronik eines Projekts unter `#timeline/<repo>`.
 - https://chronik.pleasance.org, nur aus dem Tailnet.
 - Coolify auf VPS 3: Projekt `privat-chronik`, Dienst `chronik` (nginx, Volume `chronik-site`). Betrieb und DNS: `~/dev/kontor/infra.md`.
 - Gebaut wie `robinchoice/agents`. Farbe und Zeichen nach `~/dev/starter/DESIGN.md` (Band 4,45–5,00).
@@ -23,6 +23,7 @@
 - `repo` ist der Ordnername in `~/dev`. `kind`: `milestone`, `move` (Umzug von Diensten) oder `release`. Ein `release` mit `"tag": "v0.6.0"` ergänzt nur die Beschreibung des Tags aus Git.
 - `big` markiert Höhepunkte, die der Filter „Nur Höhepunkte“ zeigt. Titel auf Deutsch, kurz, ohne Commit-Jargon.
 - Geburten und Releases nicht von Hand eintragen, die kommen aus Git. Stimmt der erste Commit nicht mit der echten Geburt überein, in `projects.json` `born` und `bornNote` setzen.
+- Ein Projekt ohne eigenes Repo (z. B. Klanglabor in `records359`) steht in `projects.json` mit `"in": "<repo>"`, `born` (Datum, Uhrzeit optional) und `bornNote`. Seine Meilensteine tragen den Schlüssel aus `projects.json` als `repo`.
 
 ## Fallen
 

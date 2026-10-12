@@ -101,6 +101,17 @@
     "name": "Blenderlab",
     "color": "#9A98A3"
   },
+  "records359": {
+    "name": "359 Records",
+    "color": "#F2C14E"
+  },
+  "klanglabor": {
+    "name": "Klanglabor",
+    "color": "#46BFE0",
+    "in": "records359",
+    "born": "2026-10-10",
+    "bornNote": "Türen zum ersten Mal für ein breites Publikum geöffnet"
+  },
   "chronik": {
     "name": "Chronik",
     "color": "#50C3C9"

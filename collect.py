@@ -53,6 +53,12 @@ def main():
             if m:
                 events.append({"at": at, "repo": key, "kind": "release", "title": tag, "tag": tag, "big": m.group(3) == "0"})
 
+    # projects without a repo of their own live inside another repo and are born on a set date
+    for key, info in meta.items():
+        if info.get("in") in projects and info.get("born"):
+            projects[key] = {"name": info.get("name", key), "color": info.get("color"), "born": info["born"], "first": info.get("bornNote", ""), "commits": 0}
+            events.append({"at": info["born"], "repo": key, "kind": "birth", "title": projects[key]["first"], "big": True})
+
     for line in (HERE / "milestones.jsonl").read_text().splitlines():
         if not line.strip():
             continue

@@ -10,6 +10,7 @@ const T = {
     release: "Release", move: "Umzug", more: "Ältere Tage zeigen", nothingDay: "Kein Eintrag an diesem Tag.",
     weeks: "3 Wochen", year: "Dieses Jahr", birthKey: "Geburtsstunde", msKey: "Meilenstein", tapHint: "Tippe auf einen Kreis oder eine Raute.",
     weekOf: d => `Woche ab ${d}`, empty: "Nichts in dieser Ansicht.",
+    allProjects: "Alle Projekte", projectLead: "Alles, was in diesem Projekt entstanden oder fertig geworden ist.",
   },
   en: {
     timeline: "Timeline", lanes: "Lanes", calendar: "Calendar", toolBy: "a tool by", otherLang: "Deutsch",
@@ -22,6 +23,7 @@ const T = {
     release: "Release", move: "Move", more: "Show older days", nothingDay: "Nothing on this day.",
     weeks: "3 weeks", year: "This year", birthKey: "Birth", msKey: "Milestone", tapHint: "Tap a circle or a diamond.",
     weekOf: d => `Week of ${d}`, empty: "Nothing in this view.",
+    allProjects: "All projects", projectLead: "Everything that was born or shipped in this project.",
   },
 };
 const VIEWS = ["timeline", "lanes", "calendar"];
@@ -42,6 +44,8 @@ const monday = d => addDays(d, -((toDate(d).getUTCDay() + 6) % 7));
 const fmt = (d, o) => toDate(d).toLocaleDateString(loc(), { timeZone: "UTC", ...o });
 const today = () => { const x = new Date(); return `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(x.getDate()).padStart(2, "0")}`; };
 
+const route = () => { const [v, p] = location.hash.slice(1).split("/"); return { view: VIEWS.includes(v) ? v : "timeline", project: v === "timeline" && D.projects[p] ? p : null }; };
+const href = p => `#timeline/${encodeURIComponent(p)}`;
 const proj = p => D.projects[p];
 const color = p => proj(p).color === "band" ? BAND[6] : proj(p).color || "#5E5E66";
 const fill = p => proj(p).color === "band" ? `linear-gradient(90deg,${BAND.join(",")})` : proj(p).color || "#5E5E66";
@@ -58,23 +62,31 @@ function tile(p, size = 34) {
 }
 const badge = e => e.kind === "release" ? ` <span class="badge">${t("release")}</span>` : e.kind === "move" ? ` <span class="badge">${t("move")}</span>` : "";
 const evRow = e => `<div class="ev ${e.big ? "big" : ""}"><span class="time">${e.at.slice(11)}</span><span class="dot" style="background:${fill(e.repo)}"></span>
-  <span><span class="title">${esc(e.title)}</span> <span class="proj">· ${esc(proj(e.repo).name)}</span>${badge(e)}</span></div>`;
-const birthCard = e => `<div class="birth">${tile(e.repo, 40)}<div><div class="t display">${esc(proj(e.repo).name)}</div>
-  <div class="meta"><b>${t("birthLabel")}</b> · ${fmt(e.at.slice(0, 10), { day: "numeric", month: "short", year: "numeric" })} · ${t("at")(e.at.slice(11))} · „${esc(e.title)}“</div></div></div>`;
+  <span><span class="title">${esc(e.title)}</span> <a class="proj" href="${href(e.repo)}">· ${esc(proj(e.repo).name)}</a>${badge(e)}</span></div>`;
+// a birth may carry only a date when the hour is unknown
+const birthCard = e => `<a class="birth" href="${href(e.repo)}">${tile(e.repo, 40)}<div><div class="t display">${esc(proj(e.repo).name)}</div>
+  <div class="meta"><b>${t("birthLabel")}</b> · ${fmt(e.at.slice(0, 10), { day: "numeric", month: "short", year: "numeric" })}${e.at.length > 10 ? ` · ${t("at")(e.at.slice(11))}` : ""} · „${esc(e.title)}“</div></div></a>`;
 const eventList = evs => evs.filter(e => e.kind === "birth").map(birthCard).join("") + evs.filter(e => e.kind !== "birth").map(evRow).join("");
 
-function timeline() {
+function timeline(project) {
   const F = { all: () => true, big: e => e.big, births: e => e.kind === "birth", releases: e => e.kind === "release", infra: e => e.repo === INFRA };
   const byDay = {};
-  D.events.filter(F[st.filter]).forEach(e => (byDay[e.at.slice(0, 10)] ||= []).push(e));
+  D.events.filter(e => (!project || e.repo === project) && F[st.filter](e)).forEach(e => (byDay[e.at.slice(0, 10)] ||= []).push(e));
   const days = Object.keys(byDay).sort().reverse();
-  let h = `<p class="lead">${t("timelineLead")}</p><div class="chips">${["all", "big", "births", "releases", "infra"]
-    .map(k => `<button class="chip ${st.filter === k ? "on" : ""}" data-filter="${k}">${t(k)}</button>`).join("")}</div>`;
+  const heat = project ? { [project]: D.heat[project] || {} } : D.heat;
+  const options = Object.keys(D.projects).sort((a, b) => proj(a).name.localeCompare(proj(b).name, loc()))
+    .map(p => `<option value="${esc(p)}" ${p === project ? "selected" : ""}>${esc(proj(p).name)}</option>`).join("");
+  let h = project ? `<div class="phead">${tile(project, 56)}<div><h1>${esc(proj(project).name)}</h1><p class="muted">${t("projectLead")}${proj(project).commits ? ` ${t("commits")(proj(project).commits)}` : ""}</p></div></div>`
+    : `<p class="lead">${t("timelineLead")}</p>`;
+  h += `<div class="chips">${(project ? ["all", "big", "releases"] : ["all", "big", "births", "releases", "infra"])
+    .map(k => `<button class="chip ${st.filter === k ? "on" : ""}" data-filter="${k}">${t(k)}</button>`).join("")}
+    <select id="proj" class="chip"><option value="">${t("allProjects")}</option>${options}</select></div>`;
   for (const d of days.slice(0, st.days)) {
-    const mix = Object.entries(D.heat).filter(([, v]) => v[d]).sort((a, b) => b[1][d] - a[1][d]).map(([p, v]) => `<span style="flex:${v[d]};background:${fill(p)}"></span>`).join("");
+    const n = Object.values(heat).reduce((s, v) => s + (v[d] || 0), 0);
+    const mix = Object.entries(heat).filter(([, v]) => v[d]).sort((a, b) => b[1][d] - a[1][d]).map(([p, v]) => `<span style="flex:${v[d]};background:${fill(p)}"></span>`).join("");
     h += `<div class="day"><div class="day-h"><div class="num display">${fmt(d, { day: "numeric" })}.</div>
       <div class="wd">${fmt(d, { weekday: "short" })} · ${fmt(d, { month: "short", year: toDate(d).getUTCFullYear() === new Date().getFullYear() ? undefined : "numeric" })}</div>
-      <div class="sum">${t("commits")(commits(d))}</div><div class="mix">${mix}</div></div><div>${eventList(byDay[d])}</div></div>`;
+      ${project && !proj(project).commits ? "" : `<div class="sum">${t("commits")(n)}</div><div class="mix">${mix}</div>`}</div><div>${eventList(byDay[d])}</div></div>`;
   }
   if (!days.length) h += `<p class="muted">${t("empty")}</p>`;
   if (days.length > st.days) h += `<div class="more"><button class="ghost" data-more>${t("more")}</button></div>`;
@@ -103,7 +115,7 @@ function lanes() {
   }).join("");
   for (const p of ps) {
     const born = bucket(proj(p).born.slice(0, 10));
-    h += `<div class="lh">${tile(p, 20)}<span>${esc(proj(p).name)}</span></div>`;
+    h += `<a class="lh" href="${href(p)}">${tile(p, 20)}<span>${esc(proj(p).name)}</span></a>`;
     for (const d of cols) {
       const evs = marks[p]?.[d] || [], n = heat[p]?.[d] || 0;
       let inner = d >= born ? '<span class="line"></span>' : "";
@@ -146,14 +158,14 @@ function calendar() {
 }
 
 function render() {
-  const view = VIEWS.includes(location.hash.slice(1)) ? location.hash.slice(1) : "timeline";
+  const { view, project } = route();
   document.documentElement.lang = lang;
   document.getElementById("nav").innerHTML = VIEWS.map(v => `<a href="#${v}" class="${v === view ? "on" : ""}">${t(v)}</a>`).join("");
   const births = D.events.filter(e => e.kind === "birth").length;
   document.getElementById("stamp").innerHTML = `${t("summary")(births, D.events.length - births)}<br>${t("stamp")(new Date(D.generated).toLocaleString(loc(), { day: "2-digit", month: "2-digit", hour: "2-digit", minute: "2-digit" }))}`;
   document.getElementById("toolBy").textContent = t("toolBy");
   document.getElementById("lang").textContent = t("otherLang");
-  document.getElementById("view").innerHTML = { timeline, lanes, calendar }[view]();
+  document.getElementById("view").innerHTML = { timeline, lanes, calendar }[view](project);
 }
 
 document.addEventListener("click", ev => {
@@ -170,5 +182,6 @@ document.addEventListener("click", ev => {
   else return;
   render();
 });
-addEventListener("hashchange", render);
+document.addEventListener("change", ev => { if (ev.target.id === "proj") location.hash = ev.target.value ? href(ev.target.value) : "#timeline"; });
+addEventListener("hashchange", () => { st.filter = "all"; st.days = 30; scrollTo(0, 0); render(); });
 fetch("data.json", { cache: "no-store" }).then(r => r.json()).then(d => { D = d; render(); });
