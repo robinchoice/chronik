@@ -8,6 +8,5 @@ trap 'rm -rf "$out"' EXIT
 cp -r "$here/site/." "$out/"
 rm -f "$out/data.json"
 python3 "$here/collect.py" > "$out/data.json"
-volume=$(ssh vps3 "docker volume inspect -f '{{.Mountpoint}}' 64ygimrpu96g7jtxbf3uhg8k_chronik-site")
-rsync -rt --delete --chmod=D755,F644 "$out/" "vps3:$volume/"
+rsync -rt --delete --chmod=D755,F644 "$out/" publish-chronik:
 echo "published $(date '+%F %T')"
