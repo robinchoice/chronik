@@ -79,3 +79,15 @@
 {"at":"2026-10-12 15:21","repo":"findyourlogic","kind":"milestone","title":"Version 1 mit Nostr-Login live","big":true}
 {"at":"2026-10-12 15:39","repo":"kontor","kind":"milestone","title":"Eigener Matrix-Server bündelt die Messenger"}
 {"at":"2026-10-12 16:32","repo":"starter","kind":"milestone","title":"Prototypen geschlossen bis zum Go, Tester per Einladung","big":true}
+{"at":"2026-10-13 00:57","repo":"kontor","kind":"milestone","title":"StartOS und die Mac-Aufnahmen sind in den Nacht-Backups"}
+{"at":"2026-10-13 01:57","repo":"findyourlogic","kind":"milestone","title":"Nostr-Anmeldung mit eigenem Signer-Dialog"}
+{"at":"2026-10-13 18:11","repo":"music-hub","kind":"milestone","title":"Mehrere Rollen, Gast-Uploads und ein gemeinsamer Papierkorb"}
+{"at":"2026-10-13 19:41","repo":"rea","kind":"milestone","title":"Gemeinsames Journal und einheitlicher Ablauf für App-Analysen","big":true}
+{"at":"2026-10-13 23:01","repo":"musichub-sync","kind":"milestone","title":"Desktop-Sync mit Anmeldung und Mini-Hub für drei Betriebssysteme","big":true}
+{"at":"2026-10-14 11:08","repo":"mautrix-mattermost","kind":"milestone","title":"Die eigene Matrix-Bridge sendet auch nach Mattermost"}
+{"at":"2026-10-14 12:13","repo":"fieldtest","kind":"milestone","title":"Fieldtest läuft auf der eigenen Infrastruktur"}
+{"at":"2026-10-14 15:35","repo":"lighthouse","kind":"milestone","title":"REA-Leitstand mit Fortschritt je Rechner"}
+{"at":"2026-10-14 17:52","repo":"rea","kind":"milestone","title":"Ghidra wird Standardschritt für native App-Bestandteile","big":true}
+{"at":"2026-10-14 20:53","repo":"savor","kind":"milestone","title":"Savor spricht Deutsch und richtet Studienprojekte per Formular ein","big":true}
+{"at":"2026-10-14 21:23","repo":"music-hub","kind":"milestone","title":"Hör-Durchgänge bündeln Feedback und Urteil"}
+{"at":"2026-10-14 22:43","repo":"records359","kind":"milestone","title":"Seiten mit eigenen Bildern direkt bearbeiten und umordnen"}
