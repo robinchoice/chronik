@@ -91,3 +91,12 @@
 {"at":"2026-10-14 20:53","repo":"savor","kind":"milestone","title":"Savor spricht Deutsch und richtet Studienprojekte per Formular ein","big":true}
 {"at":"2026-10-14 21:23","repo":"music-hub","kind":"milestone","title":"Hör-Durchgänge bündeln Feedback und Urteil"}
 {"at":"2026-10-14 22:43","repo":"records359","kind":"milestone","title":"Seiten mit eigenen Bildern direkt bearbeiten und umordnen"}
+{"at":"2026-10-15 10:50","repo":"reaboard","kind":"milestone","title":"REA-Board zeigt die gemeinsamen Teardowns mit Fortschritt je Rechner","big":true}
+{"at":"2026-10-15 10:59","repo":"starter","kind":"milestone","title":"Flutter-Releases werden verschleiert gebaut"}
+{"at":"2026-10-15 10:52","repo":"stackarena","kind":"milestone","title":"Neue Info-Spalte: Wie leicht lässt sich der Client decompilieren?"}
+{"at":"2026-10-15 15:54","repo":"doenerapp","kind":"milestone","title":"Döner bekommt Landingpage, Registrierung nur noch per Freigabe"}
+{"at":"2026-10-15 16:18","repo":"doenerapp","kind":"milestone","title":"Jahresbestenlisten mit Testsieger-Siegeln","big":true}
+{"at":"2026-10-15 16:38","repo":"starter","kind":"milestone","title":"Prototypen starten öffentlich, Secret-Scan in jeder CI","big":true}
+{"at":"2026-10-15 17:03","repo":"kontor","kind":"move","title":"CI der privaten Repos läuft auf eigenen Runnern (vps4)","big":true}
+{"at":"2026-10-15 19:07","repo":"music-hub","kind":"milestone","title":"Emoji-Reaktionen auf Kommentare"}
+{"at":"2026-10-15 19:19","repo":"doenerapp","kind":"milestone","title":"Push-Benachrichtigungen, wenn Freunde einchecken oder ein Laden neu öffnet"}
