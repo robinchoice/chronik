@@ -100,3 +100,10 @@
 {"at":"2026-10-15 17:03","repo":"kontor","kind":"move","title":"CI der privaten Repos läuft auf eigenen Runnern (vps4)","big":true}
 {"at":"2026-10-15 19:07","repo":"music-hub","kind":"milestone","title":"Emoji-Reaktionen auf Kommentare"}
 {"at":"2026-10-15 19:19","repo":"doenerapp","kind":"milestone","title":"Push-Benachrichtigungen, wenn Freunde einchecken oder ein Laden neu öffnet"}
+{"at":"2026-10-15 21:09","repo":"savor","kind":"milestone","title":"Literaturprüfung liest RIS und empfiehlt Zotero statt Citavi"}
+{"at":"2026-10-16 00:26","repo":"kontor","kind":"milestone","title":"Ausrollen bringt Secret-Scan, Seiten für Agenten und Update-Mails in alle Prototypen"}
+{"at":"2026-10-16 06:51","repo":"savor","kind":"milestone","title":"Grok Build und Antigravity mit Modi und Slash-Befehlen"}
+{"at":"2026-10-17 02:27","repo":"starter","kind":"milestone","title":"Login per Passkey oder Code, Sitzungen halten ein Jahr","big":true}
+{"at":"2026-10-17 03:06","repo":"rust-dsp-anywhere","kind":"milestone","title":"Ein DSP-Kern für CLAP/VST3, LV2 und Daisy","big":true}
+{"at":"2026-10-17 13:08","repo":"starter","kind":"milestone","title":"Konvention: LLM-Aufrufe durch Grenzen gegen Prompt Injection absichern"}
+{"at":"2026-10-17 18:26","repo":"music-hub","kind":"milestone","title":"Web-Push nur noch als Signal, Inhalte per angemeldetem Abruf"}
