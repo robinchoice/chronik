@@ -107,3 +107,11 @@
 {"at":"2026-10-17 03:06","repo":"rust-dsp-anywhere","kind":"milestone","title":"Ein DSP-Kern für CLAP/VST3, LV2 und Daisy","big":true}
 {"at":"2026-10-17 13:08","repo":"starter","kind":"milestone","title":"Konvention: LLM-Aufrufe durch Grenzen gegen Prompt Injection absichern"}
 {"at":"2026-10-17 18:26","repo":"music-hub","kind":"milestone","title":"Web-Push nur noch als Signal, Inhalte per angemeldetem Abruf"}
+{"at":"2026-10-18 13:38","repo":"starter","kind":"milestone","title":"Geschlossene Registrierung auch beim Einlösen von Link und Code geprüft"}
+{"at":"2026-10-18 17:42","repo":"fahrbar","kind":"milestone","title":"Login per Code und Passkey, Sitzungen halten ein Jahr"}
+{"at":"2026-10-18 17:53","repo":"lighthouse","kind":"milestone","title":"Lighthouse spiegelt das REA-Board samt App-Verlauf"}
+{"at":"2026-10-18 18:03","repo":"music-hub","kind":"milestone","title":"Login per Code und Passkey, Sitzungen halten ein Jahr"}
+{"at":"2026-10-18 18:09","repo":"savor","kind":"milestone","title":"watch_ci beobachtet die CI auch in anderen Projekten"}
+{"at":"2026-10-18 21:39","repo":"savor","kind":"milestone","title":"Dokument-Editor behält Tabellen, Aufgabenlisten und &"}
+{"at":"2026-10-19 00:02","repo":"music-hub","kind":"milestone","title":"UX-Kritik: Neue Versionen hochladen, am Handy repariert"}
+{"at":"2026-10-19 00:03","repo":"fieldtest","kind":"milestone","title":"Login per Code und Passkey, Sitzungen halten ein Jahr"}
