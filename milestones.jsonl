@@ -119,3 +119,16 @@
 {"at":"2026-10-19 12:24","repo":"findyourlogic","kind":"milestone","title":"Freigegebene Anfragen erscheinen als Nostr-Notiz"}
 {"at":"2026-10-19 17:13","repo":"rea","kind":"milestone","title":"Offline-Pipeline für iOS-Apps, 18 Apps statisch ausgewertet"}
 {"at":"2026-10-20 10:48","repo":"kontor","kind":"milestone","title":"Etappe 3000 € als rechenbares Modell mit Bericht","big":true}
+{"at":"2026-10-20 11:21","repo":"savor","kind":"milestone","title":"Conversations wechseln am Nutzungslimit den Agenten","big":true}
+{"at":"2026-10-20 12:55","repo":"kontor","kind":"milestone","title":"Nachtbetrieb mit Vorprüfung, untrusted-read und belegten Schrittergebnissen"}
+{"at":"2026-10-20 13:05","repo":"kontor","kind":"milestone","title":"Architektur-Woche: Fable prüft jedes Projekt"}
+{"at":"2026-10-20 17:32","repo":"music-hub","kind":"milestone","title":"Mix-Uploads mit Anleitung und Versionsvergleich"}
+{"at":"2026-10-20 17:38","repo":"kontor","kind":"milestone","title":"Isolierter Mail-Test mit Stalwart und SimpleLogin"}
+{"at":"2026-10-21 11:06","repo":"kontor","kind":"milestone","title":"Nachtwache repariert fehlende Nachtschritte und startet sie neu"}
+{"at":"2026-10-21 11:06","repo":"savor","kind":"milestone","title":"Hintergrundarbeit teilt sich ein Fünf-Stunden-Budget"}
+{"at":"2026-10-21 13:51","repo":"music-hub","kind":"milestone","title":"Feature-Tag: Kommentare beim Abspielen, Freigabe-Erinnerung, mitwachsende Share-Links","big":true}
+{"at":"2026-10-21 16:14","repo":"starter","kind":"milestone","title":"Android-Tester bekommen Prototypen über den internen Play-Test"}
+{"at":"2026-10-21 18:19","repo":"agents","kind":"milestone","title":"Zettelkasten als Graph auf der Agent-Übersicht"}
+{"at":"2026-10-21 18:26","repo":"kontor","kind":"move","title":"Backups am Dell ziehen auf die 2-TB-HDD"}
+{"at":"2026-10-21 18:38","repo":"savor","kind":"milestone","title":"Savor als Handy-App für iOS und Android","big":true}
+{"at":"2026-10-21 19:37","repo":"starter","kind":"milestone","title":"ALTCHA vor Login-Mails, strengeres TypeScript mit zod"}
