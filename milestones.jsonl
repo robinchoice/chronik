@@ -132,3 +132,11 @@
 {"at":"2026-10-21 18:26","repo":"kontor","kind":"move","title":"Backups am Dell ziehen auf die 2-TB-HDD"}
 {"at":"2026-10-21 18:38","repo":"savor","kind":"milestone","title":"Savor als Handy-App für iOS und Android","big":true}
 {"at":"2026-10-21 19:37","repo":"starter","kind":"milestone","title":"ALTCHA vor Login-Mails, strengeres TypeScript mit zod"}
+{"at":"2026-10-22 12:20","repo":"robin-wahl.de","kind":"milestone","title":"Website robin-wahl.de abgeschaltet"}
+{"at":"2026-10-22 12:53","repo":"musicstreaming-connector","kind":"milestone","title":"MusicLink heißt jetzt Songgate","big":true}
+{"at":"2026-10-22 13:02","repo":"kontor","kind":"milestone","title":"Regeln von 23,9 auf 16,5 KB gekürzt, Abläufe wandern in Skills"}
+{"at":"2026-10-22 14:26","repo":"pleasance","kind":"milestone","title":"Website-Relaunch mit Werkstatt-Startseite, Nachtschicht und Handbuch","big":true}
+{"at":"2026-10-22 14:40","repo":"kontor","kind":"milestone","title":"savor-rollback: mit einem Befehl zurück zur Vorversion"}
+{"at":"2026-10-22 15:50","repo":"lighthouse","kind":"milestone","title":"Agenten-Statistik in Lighthouse: Tokens, Stunden und Commits je Projekt"}
+{"at":"2026-10-22 16:54","repo":"kontor","kind":"milestone","title":"Laptop-Backup zusätzlich nach S3, Time Machine für den Mac"}
+{"at":"2026-10-22 19:05","repo":"kontor","kind":"milestone","title":"Grundsatz 9: Fokus auf das Wichtigste"}
