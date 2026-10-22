@@ -14,7 +14,7 @@
 ## Deploy
 
 - Ein Push sichert nur den Code, er deployt nichts.
-- `./publish.sh` sammelt die Daten neu und kopiert `site/` mit `data.json` per rsync ins Volume auf VPS 3. Automatisch stündlich über `chronik-publish.timer` (aus `systemd/` nach `~/.config/systemd/user` verlinkt).
+- `./publish.sh` sammelt die Daten neu und kopiert `site/` mit `data.json` per rsync ins Volume auf VPS 3. Automatisch täglich um 23:30 über `chronik-publish.timer` (aus `systemd/` nach `~/.config/systemd/user` verlinkt).
 - Prüfen: `systemctl --user status chronik-publish.service`, dann https://chronik.pleasance.org im Tailnet laden.
 
 ## Meilensteine pflegen

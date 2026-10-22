@@ -1,8 +1,8 @@
 [Unit]
-Description=Hourly snapshot of the project chronicle for chronik.pleasance.org
+Description=Daily snapshot of the project chronicle for chronik.pleasance.org
 
 [Timer]
-OnCalendar=hourly
+OnCalendar=*-*-* 23:30
 Persistent=true
 
 [Install]
