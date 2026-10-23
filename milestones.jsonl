@@ -140,3 +140,8 @@
 {"at":"2026-10-22 15:50","repo":"lighthouse","kind":"milestone","title":"Agenten-Statistik in Lighthouse: Tokens, Stunden und Commits je Projekt"}
 {"at":"2026-10-22 16:54","repo":"kontor","kind":"milestone","title":"Laptop-Backup zusätzlich nach S3, Time Machine für den Mac"}
 {"at":"2026-10-22 19:05","repo":"kontor","kind":"milestone","title":"Grundsatz 9: Fokus auf das Wichtigste"}
+{"at":"2026-10-23 14:04","repo":"doenerapp","kind":"milestone","title":"Freunde reagieren im Feed auf Check-ins und Bewertungen"}
+{"at":"2026-10-23 14:08","repo":"music-hub","kind":"milestone","title":"Versionskarte zeigt True Peak und Loudness Range"}
+{"at":"2026-10-23 15:29","repo":"kontor","kind":"milestone","title":"Offsite-Spiegel aller Backups auf der T7, verschlüsselt und ohne Passwörter","big":true}
+{"at":"2026-10-23 15:32","repo":"starter","kind":"milestone","title":"Sicherheitsupdate DOMPurify in starter und den Apps"}
+{"at":"2026-10-23 16:10","repo":"kontor","kind":"milestone","title":"Mac sichert per Time Machine, iPhone lokal auf den Mac"}
