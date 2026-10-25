@@ -158,6 +158,7 @@ function calendar() {
 }
 
 function render() {
+  if (!D) return; // a hash change or a click before data.json has arrived
   const { view, project } = route();
   document.documentElement.lang = lang;
   document.getElementById("nav").innerHTML = VIEWS.map(v => `<a href="#${v}" class="${v === view ? "on" : ""}">${t(v)}</a>`).join("");
