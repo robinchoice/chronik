@@ -49,6 +49,12 @@ class CollectTest(unittest.TestCase):
     def collect(self):
         return collect.collect(self.dev, self.tmp)
 
+    def test_git_error_aborts(self):
+        repo(self.dev, "ok")
+        (repo(self.dev, "broken") / ".git" / "HEAD").write_text("garbage\n")
+        with self.assertRaises(RuntimeError):
+            self.collect()
+
     def test_empty_repo_is_skipped(self):
         repo(self.dev, "ok")
         repo(self.dev, "empty", commit=False)

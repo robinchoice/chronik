@@ -18,7 +18,12 @@ VERSION = re.compile(r"^v?(\d+)\.(\d+)\.(\d+)$")
 
 
 def git(repo, *args):
-    return subprocess.run(["git", "-C", str(repo), *args], capture_output=True, text=True, timeout=60).stdout.splitlines()
+    """Lines of a git command's output. A failing command aborts the whole collection, so publish.sh
+    keeps the previous snapshot on the server instead of uploading an incomplete one."""
+    run = subprocess.run(["git", "-C", str(repo), *args], capture_output=True, text=True, timeout=60)
+    if run.returncode:
+        raise RuntimeError(f"git {args[0]} failed in {repo}: {run.stderr.strip()}")
+    return run.stdout.splitlines()
 
 
 def repos(dev):
