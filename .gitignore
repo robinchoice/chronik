@@ -1,2 +1,3 @@
 site/data.json
 .savor-logs/
+__pycache__/

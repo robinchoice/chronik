@@ -20,7 +20,7 @@
 ## Meilensteine pflegen
 
 - `milestones.jsonl`, eine Zeile pro Eintrag: `{"at": "2026-10-05 13:14", "repo": "kontor", "kind": "milestone", "title": "VPS 3 aufgesetzt", "big": true}`.
-- `repo` ist der Ordnername in `~/dev`. `kind`: `milestone`, `move` (Umzug von Diensten) oder `release`. Ein `release` mit `"tag": "v0.6.0"` ergänzt nur die Beschreibung des Tags aus Git; fehlt der Tag, bricht `collect.py` ab.
+- `repo` ist der Ordnername in `~/dev`, ein unbekannter bricht `collect.py` ab. `kind`: `milestone`, `move` (Umzug von Diensten) oder `release`. Ein `release` mit `"tag": "v0.6.0"` ergänzt nur die Beschreibung des Tags aus Git; fehlt der Tag, bricht `collect.py` ab.
 - `big` markiert Höhepunkte, die der Filter „Nur Höhepunkte“ zeigt. Titel auf Deutsch, kurz, ohne Commit-Jargon.
 - Geburten und Releases nicht von Hand eintragen, die kommen aus Git. Stimmt der erste Commit nicht mit der echten Geburt überein, in `projects.json` `born` und `bornNote` setzen.
 - Ein Projekt ohne eigenes Repo (z. B. Klanglabor in `records359`) steht in `projects.json` mit `"in": "<repo>"`, `born` (Datum, Uhrzeit optional) und `bornNote`. Seine Meilensteine tragen den Schlüssel aus `projects.json` als `repo`.

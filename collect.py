@@ -79,6 +79,8 @@ def collect(dev, here):
             tagged[0].update(title=f'{e["tag"]} – {e["title"]}', big=e["big"] or tagged[0]["big"])
         elif e["repo"] in projects:
             events.append(e)
+        else:
+            raise ValueError(f'milestones.jsonl: unknown repo {e["repo"]}')
 
     events.sort(key=lambda e: e["at"])
     return {

@@ -66,6 +66,12 @@ class CollectTest(unittest.TestCase):
         releases = [e for e in self.collect()["events"] if e["kind"] == "release"]
         self.assertEqual([(e["title"], e["big"]) for e in releases], [("v1.0.0 – Erstes Release", True)])
 
+    def test_milestone_of_unknown_repo_aborts(self):
+        repo(self.dev, "ok")
+        (self.tmp / "milestones.jsonl").write_text(note(repo="okk", title="Vertippt"))
+        with self.assertRaises(ValueError):
+            self.collect()
+
     def test_release_note_without_tag_aborts(self):
         repo(self.dev, "ok")
         (self.tmp / "milestones.jsonl").write_text(note(kind="release", tag="v9.9.9", title="Nie getaggt"))
