@@ -145,3 +145,10 @@
 {"at":"2026-10-23 15:29","repo":"kontor","kind":"milestone","title":"Offsite-Spiegel aller Backups auf der T7, verschlüsselt und ohne Passwörter","big":true}
 {"at":"2026-10-23 15:32","repo":"starter","kind":"milestone","title":"Sicherheitsupdate DOMPurify in starter und den Apps"}
 {"at":"2026-10-23 16:10","repo":"kontor","kind":"milestone","title":"Mac sichert per Time Machine, iPhone lokal auf den Mac"}
+{"at":"2026-10-25 13:46","repo":"rea","kind":"milestone","title":"41 Android-Apps aus dem Bau-Kern zerlegt"}
+{"at":"2026-10-25 16:33","repo":"starter","kind":"milestone","title":"Jeder Prototyp bekommt eine eigene CLI","big":true}
+{"at":"2026-10-25 18:05","repo":"kontor","kind":"move","title":"Offsite-Spiegel zieht mit der T7 auf pi-b"}
+{"at":"2026-10-25 20:51","repo":"savor","kind":"milestone","title":"Vorschau für PDF, Word, Excel und CSV-Tabellen"}
+{"at":"2026-10-25 21:50","repo":"musicstreaming-connector","kind":"milestone","title":"Geteilte Links nennen den Absender und laden per QR-Code ein"}
+{"at":"2026-10-25 22:35","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben in drei Spalten: Quellen, Chat, Manuskript"}
+{"at":"2026-10-25 23:12","repo":"kontor","kind":"milestone","title":"Agenten lesen Tester-Feedback ohne Absender, dreimal täglich"}
