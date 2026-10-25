@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # Collect the chronicle and upload it into the volume of the Coolify service "chronik" on VPS 3,
-# which serves it as chronik.pleasance.org (tailnet only). Started hourly by chronik-publish.timer.
+# which serves it as chronik.pleasance.org (tailnet only). Started daily by chronik-publish.timer.
 set -euo pipefail
 here=$(dirname "$(realpath "$0")")
 out=$(mktemp -d)

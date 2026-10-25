@@ -21,18 +21,19 @@ def git(repo, *args):
     return subprocess.run(["git", "-C", str(repo), *args], capture_output=True, text=True, timeout=60).stdout.splitlines()
 
 
-def repos():
-    for path in sorted(DEV.iterdir()):
+def repos(dev):
+    for path in sorted(dev.iterdir()):
         if path.is_symlink() or path.name.startswith((".", "_")) or not (path / ".git").exists():
             continue
         yield path
 
 
-def main():
-    meta = json.loads((HERE / "projects.json").read_text())
+def collect(dev, here):
+    """The chronicle of the repos in dev with the metadata and milestones in here."""
+    meta = json.loads((here / "projects.json").read_text())
     projects, events, heat = {}, [], {}
 
-    for path in repos():
+    for path in repos(dev):
         key = path.name
         info = meta.get(key, {})
         if info.get("hidden"):
@@ -59,7 +60,7 @@ def main():
             projects[key] = {"name": info.get("name", key), "color": info.get("color"), "born": info["born"], "first": info.get("bornNote", ""), "commits": 0}
             events.append({"at": info["born"], "repo": key, "kind": "birth", "title": projects[key]["first"], "big": True})
 
-    for line in (HERE / "milestones.jsonl").read_text().splitlines():
+    for line in (here / "milestones.jsonl").read_text().splitlines():
         if not line.strip():
             continue
         e = json.loads(line)
@@ -73,12 +74,16 @@ def main():
             events.append(e)
 
     events.sort(key=lambda e: e["at"])
-    print(json.dumps({
+    return {
         "generated": datetime.fromtimestamp(time.time(), timezone.utc).isoformat(timespec="seconds"),
         "projects": projects,
         "events": events,
         "heat": heat,
-    }, ensure_ascii=False))
+    }
+
+
+def main():
+    print(json.dumps(collect(DEV, HERE), ensure_ascii=False))
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@
 
 ## Checks
 
-`python3 collect.py > /dev/null && bash -n publish.sh && node -e "new Function(require('fs').readFileSync('site/app.js','utf8'))"`
+`python3 -m unittest -q test_collect && python3 collect.py > /dev/null && bash -n publish.sh && node -e "new Function(require('fs').readFileSync('site/app.js','utf8'))"`
 
 ## Deploy
 
