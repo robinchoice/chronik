@@ -179,7 +179,10 @@ document.addEventListener("click", ev => {
   else if (s.range) { st.range = s.range; st.mark = null; }
   else if (s.mark) st.mark = s.mark;
   else if (s.day) st.sel = s.day;
-  else if (s.month) { const x = toDate(`${st.month}-01`); x.setUTCMonth(x.getUTCMonth() + Number(s.month)); st.month = iso(x).slice(0, 7); }
+  else if (s.month) {
+    const x = toDate(`${st.month}-01`); x.setUTCMonth(x.getUTCMonth() + Number(s.month)); st.month = iso(x).slice(0, 7);
+    st.sel = today().startsWith(st.month) ? today() : `${st.month}-01`; // the detail column follows the month
+  }
   else return;
   render();
 });
