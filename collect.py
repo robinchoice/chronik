@@ -72,8 +72,10 @@ def collect(dev, here):
         e.setdefault("kind", "milestone")
         e["big"] = bool(e.get("big"))
         # a curated release names a tag and only adds a description to the release from git
-        tagged = [x for x in events if e.get("tag") and x.get("tag") == e["tag"] and x["repo"] == e["repo"]]
-        if tagged:
+        if e.get("tag"):
+            tagged = [x for x in events if x.get("tag") == e["tag"] and x["repo"] == e["repo"]]
+            if not tagged:
+                raise ValueError(f'milestones.jsonl: no tag {e["tag"]} in {e["repo"]}')
             tagged[0].update(title=f'{e["tag"]} – {e["title"]}', big=e["big"] or tagged[0]["big"])
         elif e["repo"] in projects:
             events.append(e)
