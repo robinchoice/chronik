@@ -152,3 +152,12 @@
 {"at":"2026-10-25 21:50","repo":"musicstreaming-connector","kind":"milestone","title":"Geteilte Links nennen den Absender und laden per QR-Code ein"}
 {"at":"2026-10-25 22:35","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben in drei Spalten: Quellen, Chat, Manuskript"}
 {"at":"2026-10-25 23:12","repo":"kontor","kind":"milestone","title":"Agenten lesen Tester-Feedback ohne Absender, dreimal täglich"}
+{"at":"2026-10-26 01:04","repo":"kaefig","kind":"milestone","title":"Käfig-Arena auf dem starter gebaut"}
+{"at":"2026-10-26 01:30","repo":"gigpost","kind":"milestone","title":"gigpost gebaut: Agenten legen Venues und Entwürfe an, Robin versendet","big":true}
+{"at":"2026-10-26 01:47","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben antwortet aus den Quellen, Zitate öffnen das PDF an der Seite"}
+{"at":"2026-10-26 02:04","repo":"musicstreaming-connector","kind":"milestone","title":"Neues Design für Web und App nach freigegebener Vorlage"}
+{"at":"2026-10-26 15:52","repo":"starter","kind":"milestone","title":"starter auf SvelteKit 3, Vite 8 und TypeScript 6","big":true}
+{"at":"2026-10-26 16:19","repo":"rea","kind":"milestone","title":"REA hält Ergebnisse als Funktionskarten mit Katalog fest"}
+{"at":"2026-10-26 17:18","repo":"kontor","kind":"move","title":"Headscale und Uptime Kuma ziehen auf VPS 3"}
+{"at":"2026-10-26 17:31","repo":"music-hub","kind":"milestone","title":"Projekte an Kunden liefern, mit Korrekturrunden und Paywall","big":true}
+{"at":"2026-10-26 23:47","repo":"musichub-sync","kind":"milestone","title":"Music Hub Sync aktualisiert sich selbst aus GitHub-Releases"}
