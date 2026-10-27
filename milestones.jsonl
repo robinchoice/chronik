@@ -165,3 +165,11 @@
 {"at":"2026-10-26 23:47","repo":"musichub-sync","kind":"milestone","title":"Music Hub Sync aktualisiert sich selbst aus GitHub-Releases","public":true,"en":"Music Hub Sync updates itself from GitHub releases"}
 {"at":"2026-10-27 03:19","repo":"rag-requirements-demo","kind":"milestone","title":"RAG-Demo zur EU-Medizinprodukteverordnung gebaut: selbst gehostete Modelle, geprüfte Zitate, Auswertung","public":true,"en":"Built a RAG demo on the EU Medical Device Regulation: self-hosted models, verified citations, evaluation"}
 {"at":"2026-10-27 14:34","repo":"doenerapp","kind":"milestone","title":"Die Döner-Rangliste lässt sich nach Zutaten filtern, rote Zwiebeln sind neu dabei","public":true,"en":"The döner ranking can be filtered by ingredient, red onion is new"}
+{"at":"2026-10-27 15:39","repo":"kontor","kind":"milestone","title":"Agenten bekommen Secrets nur noch einzeln über with-secret"}
+{"at":"2026-10-27 15:56","repo":"pleasance","kind":"milestone","title":"Teamangebot AI-native Engineering und Apps-Seite auf pleasance.org","big":true,"public":true,"en":"Team offer for AI-native engineering and an apps page on pleasance.org"}
+{"at":"2026-10-27 16:00","repo":"starter","kind":"milestone","title":"Die Startseite des starter ist eine Landingpage-Vorlage","public":true,"en":"The starter's start page is now a landing page template"}
+{"at":"2026-10-27 18:26","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate gibt es auf Deutsch und Englisch, samt iOS-Share-Extension","public":true,"en":"Songgate in German and English, including the iOS share extension"}
+{"at":"2026-10-27 19:42","repo":"music-hub","kind":"milestone","title":"Music Hub spricht Englisch, auch in der CLI und den Update-Mails","public":true,"en":"Music Hub speaks English, also in the CLI and the update mails"}
+{"at":"2026-10-27 22:47","repo":"doenerapp","kind":"milestone","title":"Die Döner-Karte zeigt Bewertung und Namen an den Pins, die Suche kennt alle Läden","public":true,"en":"The döner map shows score and name on its pins, and search knows every shop"}
+{"at":"2026-10-27 23:15","repo":"stackarena","kind":"milestone","title":"Stackarena lässt Client-Teams von Go und Rust bis Kotlin und React antreten"}
+{"at":"2026-10-27 23:54","repo":"kontor","kind":"milestone","title":"Neuer Standard: Sprache nach Art des Programms (TypeScript, Go, Rust, Bash)"}
