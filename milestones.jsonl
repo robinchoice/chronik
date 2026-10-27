@@ -163,3 +163,5 @@
 {"at":"2026-10-26 17:18","repo":"kontor","kind":"move","title":"Headscale und Uptime Kuma ziehen auf VPS 3"}
 {"at":"2026-10-26 17:31","repo":"music-hub","kind":"milestone","title":"Projekte an Kunden liefern, mit Korrekturrunden und Paywall","big":true,"public":true,"en":"Deliver projects to clients, with revision rounds and a paywall"}
 {"at":"2026-10-26 23:47","repo":"musichub-sync","kind":"milestone","title":"Music Hub Sync aktualisiert sich selbst aus GitHub-Releases","public":true,"en":"Music Hub Sync updates itself from GitHub releases"}
+{"at":"2026-10-27 03:19","repo":"rag-requirements-demo","kind":"milestone","title":"RAG-Demo zur EU-Medizinprodukteverordnung gebaut: selbst gehostete Modelle, geprüfte Zitate, Auswertung","public":true,"en":"Built a RAG demo on the EU Medical Device Regulation: self-hosted models, verified citations, evaluation"}
+{"at":"2026-10-27 14:34","repo":"doenerapp","kind":"milestone","title":"Die Döner-Rangliste lässt sich nach Zutaten filtern, rote Zwiebeln sind neu dabei","public":true,"en":"The döner ranking can be filtered by ingredient, red onion is new"}
