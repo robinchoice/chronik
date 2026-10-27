@@ -1,4 +1,5 @@
 {"at":"2026-09-29 20:29","repo":"savor","kind":"release","tag":"v0.1.0","title":"erstes Release","big":true}
+{"at":"2026-10-01 12:00","repo":"fahrbar","kind":"milestone","title":"Bei fahrbar hatten sich ungenutzte Abhängigkeiten und toter Code angesammelt. Aufgeräumt, bevor es weitergeht","miss":true,"public":true,"en":"Unused dependencies and dead code had piled up in fahrbar. Cleaned up before moving on"}
 {"at":"2026-10-01 14:59","repo":"savor","kind":"release","tag":"v0.2.2","title":"Security-Fixes für MCP-Token, Geräte, CSRF"}
 {"at":"2026-10-01 15:21","repo":"fahrbar","kind":"milestone","title":"ADR 002: Kurswechsel zum Fahrer-Service-Pilot","big":true}
 {"at":"2026-10-01 16:12","repo":"pleasance","kind":"milestone","title":"Formulare über eigene API und Proton SMTP"}
@@ -14,6 +15,7 @@
 {"at":"2026-10-03 00:01","repo":"savor","kind":"release","tag":"v0.4.0","title":"Worktrees, Workflow-Galerie"}
 {"at":"2026-10-03 01:37","repo": "kontor","kind":"milestone","title":"GlitchTip in allen Apps"}
 {"at":"2026-10-03 14:46","repo": "kontor","kind":"move","title":"Umzug auf pleasance.org, Coolify privat/Pleasance getrennt"}
+{"at":"2026-10-04 12:00","repo":"kontor","kind":"milestone","title":"Coolify ließ sich weder per Oberfläche noch per API auf einen Deploy-Key umstellen. Gelöst direkt in der Datenbank, sauber ist anders","miss":true,"public":true,"en":"Coolify couldn't be switched to a deploy key, neither in the UI nor via the API. Solved directly in the database, which is far from clean"}
 {"at":"2026-10-04 13:32","repo":"musicstreaming-connector","kind":"milestone","title":"MusicLink V1 für Apple Music und YouTube Music","big":true}
 {"at":"2026-10-04 14:14","repo":"music-hub","kind":"milestone","title":"AGPL-3.0 und Anleitung zum Selbsthosten"}
 {"at":"2026-10-04 17:14","repo":"doenerapp","kind":"milestone","title":"Bug-Report mit Screenshot von jedem Screen"}
@@ -76,7 +78,7 @@
 {"at":"2026-10-12 13:53","repo":"kontor","kind":"milestone","title":"Agenten kommen nur noch eingeschränkt auf die Server, nie an Kundendaten","big":true}
 {"at":"2026-10-12 14:04","repo":"kontor","kind":"milestone","title":"Wöchentlicher Restore-Test der Server-Backups"}
 {"at":"2026-10-12 14:24","repo":"savor","kind":"milestone","title":"Frei anordnbare Panels"}
-{"at":"2026-10-12 15:21","repo":"findyourlogic","kind":"milestone","title":"Version 1 mit Nostr-Login live","big":true}
+{"at":"2026-10-12 15:21","repo":"findyourlogic","kind":"milestone","title":"Version 1 mit Nostr-Login live","big":true,"public":true,"en":"Version 1 live with Nostr login"}
 {"at":"2026-10-12 15:39","repo":"kontor","kind":"milestone","title":"Eigener Matrix-Server bündelt die Messenger"}
 {"at":"2026-10-12 16:32","repo":"starter","kind":"milestone","title":"Prototypen geschlossen bis zum Go, Tester per Einladung","big":true}
 {"at":"2026-10-13 00:57","repo":"kontor","kind":"milestone","title":"StartOS und die Mac-Aufnahmen sind in den Nacht-Backups"}
@@ -96,7 +98,7 @@
 {"at":"2026-10-15 10:52","repo":"stackarena","kind":"milestone","title":"Neue Info-Spalte: Wie leicht lässt sich der Client decompilieren?"}
 {"at":"2026-10-15 15:54","repo":"doenerapp","kind":"milestone","title":"Döner bekommt Landingpage, Registrierung nur noch per Freigabe"}
 {"at":"2026-10-15 16:18","repo":"doenerapp","kind":"milestone","title":"Jahresbestenlisten mit Testsieger-Siegeln","big":true}
-{"at":"2026-10-15 16:38","repo":"starter","kind":"milestone","title":"Prototypen starten öffentlich, Secret-Scan in jeder CI","big":true}
+{"at":"2026-10-15 16:38","repo":"starter","kind":"milestone","title":"Prototypen starten öffentlich, Secret-Scan in jeder CI","big":true,"public":true,"en":"Prototypes start public, with a secret scan in every CI"}
 {"at":"2026-10-15 17:03","repo":"kontor","kind":"move","title":"CI der privaten Repos läuft auf eigenen Runnern (vps4)","big":true}
 {"at":"2026-10-15 19:07","repo":"music-hub","kind":"milestone","title":"Emoji-Reaktionen auf Kommentare"}
 {"at":"2026-10-15 19:19","repo":"doenerapp","kind":"milestone","title":"Push-Benachrichtigungen, wenn Freunde einchecken oder ein Laden neu öffnet"}
@@ -104,7 +106,7 @@
 {"at":"2026-10-16 00:26","repo":"kontor","kind":"milestone","title":"Ausrollen bringt Secret-Scan, Seiten für Agenten und Update-Mails in alle Prototypen"}
 {"at":"2026-10-16 06:51","repo":"savor","kind":"milestone","title":"Grok Build und Antigravity mit Modi und Slash-Befehlen"}
 {"at":"2026-10-17 02:27","repo":"starter","kind":"milestone","title":"Login per Passkey oder Code, Sitzungen halten ein Jahr","big":true}
-{"at":"2026-10-17 03:06","repo":"rust-dsp-anywhere","kind":"milestone","title":"Ein DSP-Kern für CLAP/VST3, LV2 und Daisy","big":true}
+{"at":"2026-10-17 03:06","repo":"rust-dsp-anywhere","kind":"milestone","title":"Ein DSP-Kern für CLAP/VST3, LV2 und Daisy","big":true,"public":true,"en":"One DSP core for CLAP/VST3, LV2 and Daisy"}
 {"at":"2026-10-17 13:08","repo":"starter","kind":"milestone","title":"Konvention: LLM-Aufrufe durch Grenzen gegen Prompt Injection absichern"}
 {"at":"2026-10-17 18:26","repo":"music-hub","kind":"milestone","title":"Web-Push nur noch als Signal, Inhalte per angemeldetem Abruf"}
 {"at":"2026-10-18 13:38","repo":"starter","kind":"milestone","title":"Geschlossene Registrierung auch beim Einlösen von Link und Code geprüft"}
@@ -126,38 +128,38 @@
 {"at":"2026-10-20 17:38","repo":"kontor","kind":"milestone","title":"Isolierter Mail-Test mit Stalwart und SimpleLogin"}
 {"at":"2026-10-21 11:06","repo":"kontor","kind":"milestone","title":"Nachtwache repariert fehlende Nachtschritte und startet sie neu"}
 {"at":"2026-10-21 11:06","repo":"savor","kind":"milestone","title":"Hintergrundarbeit teilt sich ein Fünf-Stunden-Budget"}
-{"at":"2026-10-21 13:51","repo":"music-hub","kind":"milestone","title":"Feature-Tag: Kommentare beim Abspielen, Freigabe-Erinnerung, mitwachsende Share-Links","big":true}
+{"at":"2026-10-21 13:51","repo":"music-hub","kind":"milestone","title":"Feature-Tag: Kommentare beim Abspielen, Freigabe-Erinnerung, mitwachsende Share-Links","big":true,"public":true,"en":"Feature day: comments while playing, approval reminders, share links that grow along"}
 {"at":"2026-10-21 16:14","repo":"starter","kind":"milestone","title":"Android-Tester bekommen Prototypen über den internen Play-Test"}
 {"at":"2026-10-21 18:19","repo":"agents","kind":"milestone","title":"Zettelkasten als Graph auf der Agent-Übersicht"}
 {"at":"2026-10-21 18:26","repo":"kontor","kind":"move","title":"Backups am Dell ziehen auf die 2-TB-HDD"}
-{"at":"2026-10-21 18:38","repo":"savor","kind":"milestone","title":"Savor als Handy-App für iOS und Android","big":true}
+{"at":"2026-10-21 18:38","repo":"savor","kind":"milestone","title":"Savor als Handy-App für iOS und Android","big":true,"public":true,"en":"Savor as a phone app for iOS and Android"}
 {"at":"2026-10-21 19:37","repo":"starter","kind":"milestone","title":"ALTCHA vor Login-Mails, strengeres TypeScript mit zod"}
 {"at":"2026-10-22 12:20","repo":"robin-wahl.de","kind":"milestone","title":"Website robin-wahl.de abgeschaltet"}
-{"at":"2026-10-22 12:53","repo":"musicstreaming-connector","kind":"milestone","title":"MusicLink heißt jetzt Songgate","big":true}
+{"at":"2026-10-22 12:53","repo":"musicstreaming-connector","kind":"milestone","title":"MusicLink heißt jetzt Songgate","big":true,"public":true,"en":"MusicLink is now called Songgate"}
 {"at":"2026-10-22 13:02","repo":"kontor","kind":"milestone","title":"Regeln von 23,9 auf 16,5 KB gekürzt, Abläufe wandern in Skills"}
-{"at":"2026-10-22 14:26","repo":"pleasance","kind":"milestone","title":"Website-Relaunch mit Werkstatt-Startseite, Nachtschicht und Handbuch","big":true}
+{"at":"2026-10-22 14:26","repo":"pleasance","kind":"milestone","title":"Website-Relaunch mit Werkstatt-Startseite, Nachtschicht und Handbuch","big":true,"public":true,"en":"Website relaunch with a workshop home page, night shift and handbook"}
 {"at":"2026-10-22 14:40","repo":"kontor","kind":"milestone","title":"savor-rollback: mit einem Befehl zurück zur Vorversion"}
 {"at":"2026-10-22 15:50","repo":"lighthouse","kind":"milestone","title":"Agenten-Statistik in Lighthouse: Tokens, Stunden und Commits je Projekt"}
 {"at":"2026-10-22 16:54","repo":"kontor","kind":"milestone","title":"Laptop-Backup zusätzlich nach S3, Time Machine für den Mac"}
 {"at":"2026-10-22 19:05","repo":"kontor","kind":"milestone","title":"Grundsatz 9: Fokus auf das Wichtigste"}
-{"at":"2026-10-23 14:04","repo":"doenerapp","kind":"milestone","title":"Freunde reagieren im Feed auf Check-ins und Bewertungen"}
-{"at":"2026-10-23 14:08","repo":"music-hub","kind":"milestone","title":"Versionskarte zeigt True Peak und Loudness Range"}
+{"at":"2026-10-23 14:04","repo":"doenerapp","kind":"milestone","title":"Freunde reagieren im Feed auf Check-ins und Bewertungen","public":true,"en":"Friends react to check-ins and ratings in the feed"}
+{"at":"2026-10-23 14:08","repo":"music-hub","kind":"milestone","title":"Versionskarte zeigt True Peak und Loudness Range","public":true,"en":"Version card shows true peak and loudness range"}
 {"at":"2026-10-23 15:29","repo":"kontor","kind":"milestone","title":"Offsite-Spiegel aller Backups auf der T7, verschlüsselt und ohne Passwörter","big":true}
 {"at":"2026-10-23 15:32","repo":"starter","kind":"milestone","title":"Sicherheitsupdate DOMPurify in starter und den Apps"}
 {"at":"2026-10-23 16:10","repo":"kontor","kind":"milestone","title":"Mac sichert per Time Machine, iPhone lokal auf den Mac"}
 {"at":"2026-10-25 13:46","repo":"rea","kind":"milestone","title":"41 Android-Apps aus dem Bau-Kern zerlegt"}
-{"at":"2026-10-25 16:33","repo":"starter","kind":"milestone","title":"Jeder Prototyp bekommt eine eigene CLI","big":true}
+{"at":"2026-10-25 16:33","repo":"starter","kind":"milestone","title":"Jeder Prototyp bekommt eine eigene CLI","big":true,"public":true,"en":"Every prototype gets its own CLI"}
 {"at":"2026-10-25 18:05","repo":"kontor","kind":"move","title":"Offsite-Spiegel zieht mit der T7 auf pi-b"}
 {"at":"2026-10-25 20:51","repo":"savor","kind":"milestone","title":"Vorschau für PDF, Word, Excel und CSV-Tabellen"}
-{"at":"2026-10-25 21:50","repo":"musicstreaming-connector","kind":"milestone","title":"Geteilte Links nennen den Absender und laden per QR-Code ein"}
-{"at":"2026-10-25 22:35","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben in drei Spalten: Quellen, Chat, Manuskript"}
+{"at":"2026-10-25 21:50","repo":"musicstreaming-connector","kind":"milestone","title":"Geteilte Links nennen den Absender und laden per QR-Code ein","public":true,"en":"Shared links name the sender and invite via QR code"}
+{"at":"2026-10-25 22:35","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben in drei Spalten: Quellen, Chat, Manuskript","public":true,"en":"Academic writing in three columns: sources, chat, manuscript"}
 {"at":"2026-10-25 23:12","repo":"kontor","kind":"milestone","title":"Agenten lesen Tester-Feedback ohne Absender, dreimal täglich"}
-{"at":"2026-10-26 01:04","repo":"kaefig","kind":"milestone","title":"Käfig-Arena auf dem starter gebaut"}
-{"at":"2026-10-26 01:30","repo":"gigpost","kind":"milestone","title":"gigpost gebaut: Agenten legen Venues und Entwürfe an, Robin versendet","big":true}
+{"at":"2026-10-26 01:04","repo":"kaefig","kind":"milestone","title":"Käfig-Arena auf dem starter gebaut","public":true,"en":"Käfig arena built on starter"}
+{"at":"2026-10-26 01:30","repo":"gigpost","kind":"milestone","title":"gigpost gebaut: Agenten legen Venues und Entwürfe an, ich versende","big":true,"public":true,"en":"gigpost built: agents add venues and drafts, I send them"}
 {"at":"2026-10-26 01:47","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben antwortet aus den Quellen, Zitate öffnen das PDF an der Seite"}
 {"at":"2026-10-26 02:04","repo":"musicstreaming-connector","kind":"milestone","title":"Neues Design für Web und App nach freigegebener Vorlage"}
-{"at":"2026-10-26 15:52","repo":"starter","kind":"milestone","title":"starter auf SvelteKit 3, Vite 8 und TypeScript 6","big":true}
+{"at":"2026-10-26 15:52","repo":"starter","kind":"milestone","title":"starter auf SvelteKit 3, Vite 8 und TypeScript 6","big":true,"public":true,"en":"starter on SvelteKit 3, Vite 8 and TypeScript 6"}
 {"at":"2026-10-26 16:19","repo":"rea","kind":"milestone","title":"REA hält Ergebnisse als Funktionskarten mit Katalog fest"}
 {"at":"2026-10-26 17:18","repo":"kontor","kind":"move","title":"Headscale und Uptime Kuma ziehen auf VPS 3"}
-{"at":"2026-10-26 17:31","repo":"music-hub","kind":"milestone","title":"Projekte an Kunden liefern, mit Korrekturrunden und Paywall","big":true}
-{"at":"2026-10-26 23:47","repo":"musichub-sync","kind":"milestone","title":"Music Hub Sync aktualisiert sich selbst aus GitHub-Releases"}
+{"at":"2026-10-26 17:31","repo":"music-hub","kind":"milestone","title":"Projekte an Kunden liefern, mit Korrekturrunden und Paywall","big":true,"public":true,"en":"Deliver projects to clients, with revision rounds and a paywall"}
+{"at":"2026-10-26 23:47","repo":"musichub-sync","kind":"milestone","title":"Music Hub Sync aktualisiert sich selbst aus GitHub-Releases","public":true,"en":"Music Hub Sync updates itself from GitHub releases"}
