@@ -27,7 +27,9 @@ def git(repo, *args):
 
 
 def repos(dev):
-    for path in sorted(dev.iterdir()):
+    # Repos on ice live in dev/_paused and stay in the chronicle
+    paused = dev / "_paused"
+    for path in sorted([*dev.iterdir(), *(paused.iterdir() if paused.is_dir() else [])]):
         if path.is_symlink() or path.name.startswith((".", "_")) or not (path / ".git").exists():
             continue
         yield path
