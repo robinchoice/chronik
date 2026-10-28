@@ -173,3 +173,11 @@
 {"at":"2026-10-27 22:47","repo":"doenerapp","kind":"milestone","title":"Die Döner-Karte zeigt Bewertung und Namen an den Pins, die Suche kennt alle Läden","public":true,"en":"The döner map shows score and name on its pins, and search knows every shop"}
 {"at":"2026-10-27 23:15","repo":"stackarena","kind":"milestone","title":"Stackarena lässt Client-Teams von Go und Rust bis Kotlin und React antreten"}
 {"at":"2026-10-27 23:54","repo":"kontor","kind":"milestone","title":"Neuer Standard: Sprache nach Art des Programms (TypeScript, Go, Rust, Bash)"}
+{"at":"2026-10-28 00:32","repo":"kontor","kind":"milestone","title":"agent-stats läuft als Rust-Programm"}
+{"at":"2026-10-28 01:11","repo":"starter","kind":"milestone","title":"Eigene Apps stehen unter AGPL-3.0, starter unter MIT"}
+{"at":"2026-10-28 02:14","repo":"music-hub","kind":"milestone","title":"Music Hub erkennt Tempo und Tonart jeder Version und zeigt ein Board nach Produktionsstufe"}
+{"at":"2026-10-28 22:38","repo":"pleasance","kind":"milestone","title":"pleasance.org bietet Coaching und Training für agentisches Arbeiten an"}
+{"at":"2026-10-28 22:48","repo":"starter","kind":"milestone","title":"starter nimmt Lightning an: L402 für Agenten, Checkout für Menschen","big":true}
+{"at":"2026-10-28 23:07","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate bekommt freiwillige Unterstützer-Käufe, noch hinter einem Schalter"}
+{"at":"2026-10-28 23:15","repo":"savor","kind":"milestone","title":"Savor Cloud: Kundeninstanzen entstehen per Skript auf Hetzner, die erste läuft","big":true}
+{"at":"2026-10-28 23:20","repo":"music-hub","kind":"milestone","title":"Music Hub hat bezahlte Tarife Pro und Studio, per Stripe oder Lightning","big":true}
