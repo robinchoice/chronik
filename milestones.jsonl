@@ -185,3 +185,4 @@
 {"at":"2026-10-29 00:39","repo":"kontor","kind":"move","title":"REA-Läufe ziehen vom Laptop auf den Mac"}
 {"at":"2026-10-29 01:45","repo":"music-hub","kind":"milestone","title":"Music Hub hat AGB, Bestätigung, Kündigungsbutton und Widerruf für die Tarife"}
 {"at":"2026-10-29 02:39","repo":"kontor","kind":"milestone","title":"Backups decken Robins Dateien außerhalb von ~/dev und die App-Buckets auf VPS 1 ab"}
+{"at":"2026-10-30 01:30","repo":"doenerapp","kind":"milestone","title":"Ich biete die Döner App für Android jetzt direkt auf der Landingpage an, mit Update-Hinweis in der App","public":true,"en":"I now offer the Döner app for Android straight from its landing page, with an update hint in the app"}
