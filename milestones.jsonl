@@ -186,3 +186,7 @@
 {"at":"2026-10-29 01:45","repo":"music-hub","kind":"milestone","title":"Music Hub hat AGB, Bestätigung, Kündigungsbutton und Widerruf für die Tarife"}
 {"at":"2026-10-29 02:39","repo":"kontor","kind":"milestone","title":"Backups decken Robins Dateien außerhalb von ~/dev und die App-Buckets auf VPS 1 ab"}
 {"at":"2026-10-30 01:30","repo":"doenerapp","kind":"milestone","title":"Ich biete die Döner App für Android jetzt direkt auf der Landingpage an, mit Update-Hinweis in der App","public":true,"en":"I now offer the Döner app for Android straight from its landing page, with an update hint in the app"}
+{"at":"2026-10-30 09:00","repo":"savor","kind":"milestone","title":"Savor: Feature-Freeze im Kern beendet"}
+{"at":"2026-10-30 09:06","repo":"kontor","kind":"milestone","title":"Tailnet-ACL war drei Tage offen, der Infra-Check wacht jetzt über die Regeln","big":true}
+{"at":"2026-10-30 09:16","repo":"doenerapp","kind":"milestone","title":"Döner App setzt Tester-Feedback um: Soßen als Mehrfachauswahl, Tageslimit der Suche sichtbar"}
+{"at":"2026-10-30 15:50","repo":"music-hub","kind":"milestone","title":"Music Hub rechnet Widerruf und Kündigung nach fehlgeschlagener Verlängerung richtig ab","big":true}
