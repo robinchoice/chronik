@@ -175,9 +175,9 @@
 {"at":"2026-10-27 23:54","repo":"kontor","kind":"milestone","title":"Neuer Standard: Sprache nach Art des Programms (TypeScript, Go, Rust, Bash)"}
 {"at":"2026-10-28 00:32","repo":"kontor","kind":"milestone","title":"agent-stats läuft als Rust-Programm"}
 {"at":"2026-10-28 01:11","repo":"starter","kind":"milestone","title":"Eigene Apps stehen unter AGPL-3.0, starter unter MIT"}
-{"at":"2026-10-28 02:14","repo":"music-hub","kind":"milestone","title":"Music Hub erkennt Tempo und Tonart jeder Version und zeigt ein Board nach Produktionsstufe"}
-{"at":"2026-10-28 22:38","repo":"pleasance","kind":"milestone","title":"pleasance.org bietet Coaching und Training für agentisches Arbeiten an"}
-{"at":"2026-10-28 22:48","repo":"starter","kind":"milestone","title":"starter nimmt Lightning an: L402 für Agenten, Checkout für Menschen","big":true}
+{"at":"2026-10-28 02:14","repo":"music-hub","kind":"milestone","title":"Music Hub erkennt Tempo und Tonart jeder Version und zeigt ein Board nach Produktionsstufe","public":true,"en":"Music Hub detects tempo and key of every version and shows a board by production stage"}
+{"at":"2026-10-28 22:38","repo":"pleasance","kind":"milestone","title":"Ich biete auf pleasance.org Coaching und Training für agentisches Arbeiten an","public":true,"en":"I now offer coaching and training for agentic work on pleasance.org"}
+{"at":"2026-10-28 22:48","repo":"starter","kind":"milestone","title":"Meine Apps nehmen Lightning an: L402 für Agenten, Checkout für Menschen, fertig eingebaut im starter","big":true,"public":true,"en":"My apps take Lightning: L402 for agents and a checkout for people, built into starter"}
 {"at":"2026-10-28 23:07","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate bekommt freiwillige Unterstützer-Käufe, noch hinter einem Schalter"}
 {"at":"2026-10-28 23:15","repo":"savor","kind":"milestone","title":"Savor Cloud: Kundeninstanzen entstehen per Skript auf Hetzner, die erste läuft","big":true}
 {"at":"2026-10-28 23:20","repo":"music-hub","kind":"milestone","title":"Music Hub hat bezahlte Tarife Pro und Studio, per Stripe oder Lightning","big":true}
