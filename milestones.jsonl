@@ -192,3 +192,5 @@
 {"at":"2026-10-30 15:50","repo":"music-hub","kind":"milestone","title":"Music Hub rechnet Widerruf und Kündigung nach fehlgeschlagener Verlängerung richtig ab","big":true}
 {"at":"2026-10-30 21:59","repo":"khala","kind":"milestone","title":"Khala verknüpft Muster-Feedback, Entscheidungshilfen und gemeinsame Suche"}
 {"at":"2026-10-31 20:05","repo":"stackarena","kind":"milestone","title":"Stackarena startet Runde 2 nachts mit Bun, Rust, Go, Dart, Svelte-Electron und neuem TypeScript-Client"}
+{"at":"2026-11-01 02:27","repo":"music-hub","kind":"milestone","title":"Music Hub: Kommentare lassen sich auf dem Handy bedienen, Abhaken mit Rückgängig"}
+{"at":"2026-11-01 09:17","repo":"kontor","kind":"move","title":"VPS 4 abgeschaltet, private Repos bauen wieder auf GitHub-Runnern","big":true}
