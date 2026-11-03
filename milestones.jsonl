@@ -194,3 +194,9 @@
 {"at":"2026-10-31 20:05","repo":"stackarena","kind":"milestone","title":"Stackarena startet Runde 2 nachts mit Bun, Rust, Go, Dart, Svelte-Electron und neuem TypeScript-Client"}
 {"at":"2026-11-01 02:27","repo":"music-hub","kind":"milestone","title":"Music Hub: Kommentare lassen sich auf dem Handy bedienen, Abhaken mit Rückgängig"}
 {"at":"2026-11-01 09:17","repo":"kontor","kind":"move","title":"VPS 4 abgeschaltet, private Repos bauen wieder auf GitHub-Runnern","big":true}
+{"at":"2026-11-02 12:16","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate-Web läuft auf SvelteKit 3, Vite 8 und TypeScript 6"}
+{"at":"2026-11-02 12:17","repo":"music-hub","kind":"milestone","title":"Music-Hub-CLI kann Tracks, Versionen mit Up- und Download, Kommentare und Reviews"}
+{"at":"2026-11-02 16:49","repo":"postgres-pgbackrest","kind":"milestone","title":"Eigenes PostgreSQL-16-Image mit pgBackRest und geprüfter Point-in-Time-Wiederherstellung"}
+{"at":"2026-11-02 17:03","repo":"doenerapp","kind":"milestone","title":"Döner schickt Pushes bei Freundschaftsanfragen und Reaktionen"}
+{"at":"2026-11-02 17:11","repo":"music-hub","kind":"milestone","title":"Music Hub erzeugt aus Stems automatisch Mix-Versionen","big":true}
+{"at":"2026-11-03 02:35","repo":"rea","kind":"milestone","title":"REA-Restkette: Ableton Live, Avid Link, Neutron, Native Access, Screen Studio und DaVinci Resolve analysiert"}
