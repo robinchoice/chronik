@@ -207,4 +207,4 @@
 {"at":"2026-11-05 08:10","repo":"rea","kind":"milestone","title":"REA: Headspace und Pilates Anytime analysiert"}
 {"at":"2026-11-05 09:59","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate hat Nutzungsbedingungen"}
 {"at":"2026-11-05 10:48","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate kann TIDAL und sucht bei Amazon Music","public":true,"en":"I added TIDAL and an Amazon Music search to Songgate"}
-{"at":"2026-11-05 12:40","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate teilt Podcasts und Folgen","public":true,"en":"Songgate now shares podcasts and episodes across Apple Podcasts, Spotify, Deezer and YouTube Music"}
+{"at":"2026-11-05 12:40","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate teilt Podcasts und Folgen","public":true,"en":"I taught Songgate to share podcasts and episodes across Apple Podcasts, Spotify, Deezer and YouTube Music"}
