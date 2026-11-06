@@ -196,14 +196,14 @@
 {"at":"2026-11-01 09:17","repo":"kontor","kind":"move","title":"VPS 4 abgeschaltet, private Repos bauen wieder auf GitHub-Runnern","big":true}
 {"at":"2026-11-02 12:16","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate-Web läuft auf SvelteKit 3, Vite 8 und TypeScript 6"}
 {"at":"2026-11-02 12:17","repo":"music-hub","kind":"milestone","title":"Music-Hub-CLI kann Tracks, Versionen mit Up- und Download, Kommentare und Reviews"}
-{"at":"2026-11-02 16:49","repo":"postgres-pgbackrest","kind":"milestone","title":"Eigenes PostgreSQL-16-Image mit pgBackRest und geprüfter Point-in-Time-Wiederherstellung"}
-{"at":"2026-11-02 17:03","repo":"doenerapp","kind":"milestone","title":"Döner schickt Pushes bei Freundschaftsanfragen und Reaktionen"}
-{"at":"2026-11-02 17:11","repo":"music-hub","kind":"milestone","title":"Music Hub erzeugt aus Stems automatisch Mix-Versionen","big":true}
+{"at":"2026-11-02 16:49","repo":"postgres-pgbackrest","kind":"milestone","title":"Ich habe ein eigenes PostgreSQL-16-Image mit pgBackRest gebaut, die Wiederherstellung auf jeden Zeitpunkt ist geprüft","public":true,"en":"I built my own PostgreSQL 16 image with pgBackRest and tested point-in-time recovery"}
+{"at":"2026-11-02 17:03","repo":"doenerapp","kind":"milestone","title":"Die Döner App schickt Pushes bei Freundschaftsanfragen und Reaktionen","public":true,"en":"The Döner app sends push notifications for friend requests and reactions"}
+{"at":"2026-11-02 17:11","repo":"music-hub","kind":"milestone","title":"Music Hub baut aus Stems automatisch Mix-Versionen","big":true,"public":true,"en":"Music Hub builds mix versions from stems automatically"}
 {"at":"2026-11-03 02:35","repo":"rea","kind":"milestone","title":"REA-Restkette: Ableton Live, Avid Link, Neutron, Native Access, Screen Studio und DaVinci Resolve analysiert"}
-{"at":"2026-11-04 00:46","repo":"savor","kind":"milestone","title":"Savor: OpenCode im Auto-Modus mit modellgeprüften Rechten"}
+{"at":"2026-11-04 00:46","repo":"savor","kind":"milestone","title":"In Savor arbeitet OpenCode jetzt im Auto-Modus, ein Modell prüft die Rechte","public":true,"en":"OpenCode now runs in auto mode in Savor, with a model reviewing its permissions"}
 {"at":"2026-11-04 09:05","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate geht als 1.0.1 live"}
-{"at":"2026-11-04 14:01","repo":"music-hub","kind":"milestone","title":"Music Hub nimmt jede Datei überall an und erkennt Spuren an ihrer Länge","big":true}
-{"at":"2026-11-04 16:43","repo":"starter","kind":"milestone","title":"Neuer Standard: Apps passen sich Foldables, Tablets und wechselnden Fenstergrößen an","big":true}
+{"at":"2026-11-04 14:01","repo":"music-hub","kind":"milestone","title":"Music Hub nimmt jede Datei überall an und erkennt Spuren an ihrer Länge","big":true,"public":true,"en":"Music Hub accepts any file anywhere and recognizes tracks by their length"}
+{"at":"2026-11-04 16:43","repo":"starter","kind":"milestone","title":"Meine Apps passen sich Foldables, Tablets und wechselnden Fenstergrößen an","big":true,"public":true,"en":"My apps adapt to foldables, tablets and changing window sizes"}
 {"at":"2026-11-05 08:10","repo":"rea","kind":"milestone","title":"REA: Headspace und Pilates Anytime analysiert"}
 {"at":"2026-11-05 09:59","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate hat Nutzungsbedingungen"}
 {"at":"2026-11-05 10:48","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate kann TIDAL und sucht bei Amazon Music","public":true,"en":"I added TIDAL and an Amazon Music search to Songgate"}
