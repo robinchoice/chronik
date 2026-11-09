@@ -210,3 +210,7 @@
 {"at":"2026-11-05 12:40","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate teilt Podcasts und Folgen","public":true,"en":"I taught Songgate to share podcasts and episodes across Apple Podcasts, Spotify, Deezer and YouTube Music"}
 {"at":"2026-11-08 17:27","repo":"music-hub","kind":"milestone","title":"Music Hub hat einen Blindtest für Versionen","public":true,"en":"I added a blind test to Music Hub, so you pick the better mix without knowing which version it is"}
 {"at":"2026-11-09 13:40","repo":"doenerapp","kind":"milestone","title":"Die Döner-App heißt jetzt Lieblingsdöner","public":true,"en":"I renamed the Döner app to Lieblingsdöner"}
+{"at":"2026-11-09 13:31","repo":"music-hub","kind":"milestone","title":"Music Hub lockt mit Empfehlungen: beide Seiten bekommen freie Plantage","public":true,"en":"I added referrals to Music Hub, both sides get free plan days once a referred account pays"}
+{"at":"2026-11-09 15:21","repo":"doenerapp","kind":"milestone","title":"Lieblingsdöner mit neuem Auftritt: Landing Page, leere Zustände, Design-Studio"}
+{"at":"2026-11-09 15:16","repo":"kontor","kind":"milestone","title":"Storage Box vps3-data für Immich-Medien auf VPS 3"}
+{"at":"2026-11-09 22:35","repo":"savor","kind":"milestone","title":"Savor Cloud: ein Setup-Link, der auf seine Instanz wartet","big":true,"public":true,"en":"Savor Cloud instances now come with one setup link that waits for the instance and works until the first pairing"}
