@@ -216,3 +216,8 @@
 {"at":"2026-11-09 22:35","repo":"savor","kind":"milestone","title":"Savor Cloud: ein Setup-Link, der auf seine Instanz wartet","big":true,"public":true,"en":"Savor Cloud instances now come with one setup link that waits for the instance and works until the first pairing"}
 {"at":"2026-11-10 12:45","repo":"music-hub","kind":"milestone","title":"Music Hub navigiert wie ein Drive: kurze Seitenleiste, Meine Musik als Ordner, Dateien je Track","public":true,"en":"Music Hub now navigates like a drive: a short sidebar, My music as folders of artists, projects and tracks, and files per track"}
 {"at":"2026-11-10 19:30","repo":"music-hub","kind":"milestone","title":"Music Hub: Rechte je Person einstellbar, Einstellungen überall erreichbar","public":true,"en":"Music Hub now lets project owners set rights per person (upload, download, comment, approve, invite), with the role as a preset"}
+{"at":"2026-11-10 19:58","repo":"doenerapp","kind":"milestone","title":"Lieblingsdöner: Store-Einträge und Einreichung für App Store und Play per API"}
+{"at":"2026-11-10 20:05","repo":"kontor","kind":"milestone","title":"pi-a: Musik als schreibgeschützte Samba-Freigabe im Heimnetz"}
+{"at":"2026-11-10 21:09","repo":"musichub-plugin","kind":"milestone","title":"Plugin nimmt den nächsten Offline-Bounce auf und lädt ihn als Version hoch"}
+{"at":"2026-11-10 22:19","repo":"savor","kind":"milestone","title":"Savor Cloud: Agenten und GitHub per Knopf anmelden, Start aus einem Repo","big":true}
+{"at":"2026-11-10 22:38","repo":"savor","kind":"milestone","title":"Offene Modelle: OpenCode bekommt Savors Protokoll, Savor fasst bei fehlendem Abschluss nach"}
