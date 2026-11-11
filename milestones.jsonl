@@ -221,3 +221,4 @@
 {"at":"2026-11-10 21:09","repo":"musichub-plugin","kind":"milestone","title":"Plugin nimmt den nächsten Offline-Bounce auf und lädt ihn als Version hoch"}
 {"at":"2026-11-10 22:19","repo":"savor","kind":"milestone","title":"Savor Cloud: Agenten und GitHub per Knopf anmelden, Start aus einem Repo","big":true}
 {"at":"2026-11-10 22:38","repo":"savor","kind":"milestone","title":"Offene Modelle: OpenCode bekommt Savors Protokoll, Savor fasst bei fehlendem Abschluss nach"}
+{"at":"2026-11-11 22:09","repo":"savor","kind":"milestone","title":"Savor streamt Antworten und bekommt eine Schnellspur für kurze Fragen","big":true,"public":true,"en":"Savor streams answers as they are written and adds a fast lane for quick questions"}
