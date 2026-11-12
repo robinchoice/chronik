@@ -226,3 +226,4 @@
 {"at":"2026-11-11 00:43","repo":"starter","kind":"milestone","title":"starter findet ungenutzte Dateien, Abhängigkeiten und Exporte mit knip"}
 {"at":"2026-11-11 23:42","repo":"musichub-sync","kind":"milestone","title":"Sync zeigt den Fortschritt beim Hoch- und Runterladen (0.2.0)"}
 {"at":"2026-11-12 00:00","repo":"records359","kind":"milestone","title":"Musik-Archiv neu geordnet: Künstler, Release, Song, gleich auf pi-a, Mac und Music Hub","big":true}
+{"at":"2026-11-12 23:30","repo":"doenerapp","kind":"milestone","title":"Lieblingsdöner bewertet die Größe, rankt nach Preis-Leistung und filtert Halal und selbst gesteckten Spieß","public":true,"en":"I taught Lieblingsdöner to rate portion size, rank by value for money and filter for halal meat and homemade skewers"}
