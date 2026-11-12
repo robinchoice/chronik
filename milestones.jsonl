@@ -227,3 +227,7 @@
 {"at":"2026-11-11 23:42","repo":"musichub-sync","kind":"milestone","title":"Sync zeigt den Fortschritt beim Hoch- und Runterladen (0.2.0)"}
 {"at":"2026-11-12 00:00","repo":"records359","kind":"milestone","title":"Musik-Archiv neu geordnet: Künstler, Release, Song, gleich auf pi-a, Mac und Music Hub","big":true}
 {"at":"2026-11-12 23:30","repo":"doenerapp","kind":"milestone","title":"Lieblingsdöner bewertet die Größe, rankt nach Preis-Leistung und filtert Halal und selbst gesteckten Spieß","public":true,"en":"I taught Lieblingsdöner to rate portion size, rank by value for money and filter for halal meat and homemade skewers"}
+{"at":"2026-11-12 10:06","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate öffnet seine Teilen- und Einladungslinks auf iOS direkt in der App"}
+{"at":"2026-11-12 23:01","repo":"starter","kind":"milestone","title":"Das Farbband unter der Wortmarke wird zum Dock der Pleasance-Apps, im Web und in Flutter","public":true,"en":"I turned the colour band under the Pleasance wordmark into a dock of all my apps, on the web and in Flutter"}
+{"at":"2026-11-12 23:46","repo":"stackarena","kind":"milestone","title":"Stackarena Runde 1 ausgewertet: 15 Läufe"}
+{"at":"2026-11-12 23:47","repo":"pinna","kind":"milestone","title":"Pinna archiviert: Die Messungen ziehen nach Music Hub, Robin arbeitet wieder in Logic Pro","big":true}
