@@ -26,21 +26,29 @@ def git(repo, *args):
     return run.stdout.splitlines()
 
 
-def repos(dev):
-    # Repos on ice live in dev/_paused and stay in the chronicle
-    paused = dev / "_paused"
-    for path in sorted([*dev.iterdir(), *(paused.iterdir() if paused.is_dir() else [])]):
-        if path.is_symlink() or path.name.startswith((".", "_")) or not (path / ".git").exists():
+def repos(dev, named):
+    """Repos in dev and in dev/_paused (on ice), plus the archived repos in dev/_archive that the chronicle
+    names in milestones.jsonl or projects.json. The first folder wins when a name appears twice."""
+    seen = set()
+    for folder in (dev, dev / "_paused", dev / "_archive"):
+        if not folder.is_dir():
             continue
-        yield path
+        for path in sorted(folder.iterdir()):
+            if path.is_symlink() or path.name.startswith((".", "_")) or not (path / ".git").exists() or path.name in seen:
+                continue
+            if folder.name == "_archive" and path.name not in named:
+                continue
+            seen.add(path.name)
+            yield path
 
 
 def collect(dev, here):
     """The chronicle of the repos in dev with the metadata and milestones in here."""
     meta = json.loads((here / "projects.json").read_text())
+    milestones = [json.loads(line) for line in (here / "milestones.jsonl").read_text().splitlines() if line.strip()]
     projects, events, heat = {}, [], {}
 
-    for path in repos(dev):
+    for path in repos(dev, {*meta, *(e["repo"] for e in milestones)}):
         key = path.name
         info = meta.get(key, {})
         if info.get("hidden"):
@@ -67,10 +75,7 @@ def collect(dev, here):
             projects[key] = {"name": info.get("name", key), "color": info.get("color"), "born": info["born"], "first": info.get("bornNote", ""), "commits": 0}
             events.append({"at": info["born"], "repo": key, "kind": "birth", "title": projects[key]["first"], "big": True})
 
-    for line in (here / "milestones.jsonl").read_text().splitlines():
-        if not line.strip():
-            continue
-        e = json.loads(line)
+    for e in milestones:
         e.setdefault("kind", "milestone")
         e["big"] = bool(e.get("big"))
         # a curated release names a tag and only adds a description to the release from git

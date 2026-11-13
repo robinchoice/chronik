@@ -72,6 +72,25 @@ class CollectTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             self.collect()
 
+    def test_archived_repo_only_when_named(self):
+        repo(self.dev, "ok")
+        (self.dev / "_archive").mkdir()
+        repo(self.dev / "_archive", "gone")
+        repo(self.dev / "_archive", "named")
+        repo(self.dev / "_archive", "curated")
+        (self.dev / "named-link").symlink_to(self.dev / "_archive" / "named")
+        (self.tmp / "projects.json").write_text('{"curated": {"name": "Curated"}}')
+        (self.tmp / "milestones.jsonl").write_text(note(repo="named", title="Archiviert"))
+        self.assertEqual(sorted(self.collect()["projects"]), ["curated", "named", "ok"])
+
+    def test_live_repo_wins_over_archived_copy(self):
+        repo(self.dev, "ok")
+        (self.dev / "_archive").mkdir()
+        repo(self.dev / "_archive", "ok")
+        (self.tmp / "milestones.jsonl").write_text(note(title="Einmal"))
+        births = [e for e in self.collect()["events"] if e["kind"] == "birth"]
+        self.assertEqual(len(births), 1)
+
     def test_release_note_without_tag_aborts(self):
         repo(self.dev, "ok")
         (self.tmp / "milestones.jsonl").write_text(note(kind="release", tag="v9.9.9", title="Nie getaggt"))

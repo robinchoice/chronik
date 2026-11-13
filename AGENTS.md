@@ -29,6 +29,7 @@
 ## Fallen
 
 - `site/data.json` gehört nie ins Repo, sie entsteht beim Publizieren.
+- Archivierte Repos in `~/dev/_archive` erscheinen nur, wenn `milestones.jsonl` oder `projects.json` sie nennt, alle anderen dort (Notiz-Vaults, alte Configs) bleiben draußen. Repos in `~/dev/_paused` erscheinen immer. Liegt ein Name doppelt vor, gilt `~/dev` vor `_paused` vor `_archive`.
 - Neue Repos erscheinen von selbst, grau und unter ihrem Ordnernamen. Anzeigename und Produktfarbe (Mitte des Ausschnitts aus DESIGN.md, `band` für das ganze Farbband) in `projects.json`. `hidden: true` blendet ein Repo aus.
 - Texte der Oberfläche stehen in `site/app.js` unter `T.de` und `T.en`, neue immer in beiden Sprachen.
 - Der Router `chronik-tailnet` in `/data/coolify/proxy/dynamic/tailnet-only.yaml` auf VPS 3 zeigt fest auf den Container `chronik-64ygimrpu96g7jtxbf3uhg8k`. `publish.sh` kennt den Volume-Namen.
