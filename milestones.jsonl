@@ -232,3 +232,4 @@
 {"at":"2026-11-12 23:46","repo":"stackarena","kind":"milestone","title":"Stackarena Runde 1 ausgewertet: 15 Läufe"}
 {"at":"2026-11-12 23:47","repo":"pinna","kind":"milestone","title":"Pinna archiviert: Die Messungen ziehen nach Music Hub, Robin arbeitet wieder in Logic Pro","big":true}
 {"at":"2026-11-13 16:56","repo":"savor","kind":"milestone","title":"Savor installiert man jetzt mit einer Zeile: per Homebrew auf dem Mac, per Skript unter Linux und auf dem eigenen Server","public":true,"en":"I cut installing Savor down to one line: Homebrew on the Mac, a script on Linux and on your own server"}
+{"at":"2026-11-13 19:32","repo":"meterbolt","kind":"milestone","title":"Meterbolt Phase 1: L402-Plugin für BTCPay mit Regtest-Zahlung und grüner CI"}
