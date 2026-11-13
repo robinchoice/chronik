@@ -234,3 +234,5 @@
 {"at":"2026-11-13 16:56","repo":"savor","kind":"milestone","title":"Savor installiert man jetzt mit einer Zeile: per Homebrew auf dem Mac, per Skript unter Linux und auf dem eigenen Server","public":true,"en":"I cut installing Savor down to one line: Homebrew on the Mac, a script on Linux and on your own server"}
 {"at":"2026-11-13 19:32","repo":"meterbolt","kind":"milestone","title":"Meterbolt Phase 1: L402-Plugin für BTCPay mit Regtest-Zahlung und grüner CI"}
 {"at":"2026-11-13 19:54","repo":"music-hub","kind":"milestone","title":"Songs in Music Hub wie Ordner aufräumen: verschieben, zusammenführen und mehrfach auswählen"}
+{"at":"2026-11-13 14:59","repo":"songgate","kind":"milestone","title":"Songgate ist weltweit im App Store und bei Google Play, auch in der EU","big":true,"public":true,"en":"Songgate is now live worldwide on the App Store and Google Play, including the EU"}
+{"at":"2026-11-13 18:31","repo":"savor","kind":"milestone","title":"Neue Savor-Landingpage: dunkel, nummerierte Schritte, echte App-Bilder und eine deutsche Fassung unter /de/"}
