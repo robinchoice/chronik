@@ -16,7 +16,7 @@
 {"at":"2026-10-03 01:37","repo": "kontor","kind":"milestone","title":"GlitchTip in allen Apps"}
 {"at":"2026-10-03 14:46","repo": "kontor","kind":"move","title":"Umzug auf pleasance.org, Coolify privat/Pleasance getrennt"}
 {"at":"2026-10-04 12:00","repo":"kontor","kind":"milestone","title":"Coolify ließ sich weder per Oberfläche noch per API auf einen Deploy-Key umstellen. Gelöst direkt in der Datenbank, sauber ist anders","miss":true,"public":true,"en":"Coolify couldn't be switched to a deploy key, neither in the UI nor via the API. Solved directly in the database, which is far from clean"}
-{"at":"2026-10-04 13:32","repo":"musicstreaming-connector","kind":"milestone","title":"MusicLink V1 für Apple Music und YouTube Music","big":true}
+{"at":"2026-10-04 13:32","repo":"songgate","kind":"milestone","title":"MusicLink V1 für Apple Music und YouTube Music","big":true}
 {"at":"2026-10-04 14:14","repo":"music-hub","kind":"milestone","title":"AGPL-3.0 und Anleitung zum Selbsthosten"}
 {"at":"2026-10-04 17:14","repo":"doenerapp","kind":"milestone","title":"Bug-Report mit Screenshot von jedem Screen"}
 {"at":"2026-10-04 17:15","repo":"savor","kind":"release","tag":"v0.5.0","title":"macOS-Installer"}
@@ -55,7 +55,7 @@
 {"at":"2026-10-08 00:37","repo":"kontor","kind":"milestone","title":"Feierabend räumt nachts vor dem Review auf"}
 {"at":"2026-10-08 12:33","repo":"records359","kind":"milestone","title":"359 Records und Klanglabor live"}
 {"at":"2026-10-08 13:08","repo":"kontor","kind":"milestone","title":"Aus New AI Setup wird das Kontor","big":true}
-{"at":"2026-10-08 15:26","repo":"musicstreaming-connector","kind":"milestone","title":"Freunde in App und Share-Extension"}
+{"at":"2026-10-08 15:26","repo":"songgate","kind":"milestone","title":"Freunde in App und Share-Extension"}
 {"at":"2026-10-08 17:08","repo":"savor","kind":"milestone","title":"Spracheingabe mit Parakeet V3 und Bug-Knopf"}
 {"at":"2026-10-08 20:38","repo":"kontor","kind":"milestone","title":"Grundsätze und Vision für alle Agenten","big":true}
 {"at":"2026-10-08 21:16","repo":"music-hub","kind":"milestone","title":"API zustandslos, Audio im eigenen Worker","big":true}
@@ -135,7 +135,7 @@
 {"at":"2026-10-21 18:38","repo":"savor","kind":"milestone","title":"Savor als Handy-App für iOS und Android","big":true,"public":true,"en":"Savor as a phone app for iOS and Android"}
 {"at":"2026-10-21 19:37","repo":"starter","kind":"milestone","title":"ALTCHA vor Login-Mails, strengeres TypeScript mit zod"}
 {"at":"2026-10-22 12:20","repo":"robin-wahl.de","kind":"milestone","title":"Website robin-wahl.de abgeschaltet"}
-{"at":"2026-10-22 12:53","repo":"musicstreaming-connector","kind":"milestone","title":"MusicLink heißt jetzt Songgate","big":true,"public":true,"en":"MusicLink is now called Songgate"}
+{"at":"2026-10-22 12:53","repo":"songgate","kind":"milestone","title":"MusicLink heißt jetzt Songgate","big":true,"public":true,"en":"MusicLink is now called Songgate"}
 {"at":"2026-10-22 13:02","repo":"kontor","kind":"milestone","title":"Regeln von 23,9 auf 16,5 KB gekürzt, Abläufe wandern in Skills"}
 {"at":"2026-10-22 14:26","repo":"pleasance","kind":"milestone","title":"Website-Relaunch mit Werkstatt-Startseite, Nachtschicht und Handbuch","big":true,"public":true,"en":"Website relaunch with a workshop home page, night shift and handbook"}
 {"at":"2026-10-22 14:40","repo":"kontor","kind":"milestone","title":"savor-rollback: mit einem Befehl zurück zur Vorversion"}
@@ -151,13 +151,13 @@
 {"at":"2026-10-25 16:33","repo":"starter","kind":"milestone","title":"Jeder Prototyp bekommt eine eigene CLI","big":true,"public":true,"en":"Every prototype gets its own CLI"}
 {"at":"2026-10-25 18:05","repo":"kontor","kind":"move","title":"Offsite-Spiegel zieht mit der T7 auf pi-b"}
 {"at":"2026-10-25 20:51","repo":"savor","kind":"milestone","title":"Vorschau für PDF, Word, Excel und CSV-Tabellen"}
-{"at":"2026-10-25 21:50","repo":"musicstreaming-connector","kind":"milestone","title":"Geteilte Links nennen den Absender und laden per QR-Code ein","public":true,"en":"Shared links name the sender and invite via QR code"}
+{"at":"2026-10-25 21:50","repo":"songgate","kind":"milestone","title":"Geteilte Links nennen den Absender und laden per QR-Code ein","public":true,"en":"Shared links name the sender and invite via QR code"}
 {"at":"2026-10-25 22:35","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben in drei Spalten: Quellen, Chat, Manuskript","public":true,"en":"Academic writing in three columns: sources, chat, manuscript"}
 {"at":"2026-10-25 23:12","repo":"kontor","kind":"milestone","title":"Agenten lesen Tester-Feedback ohne Absender, dreimal täglich"}
 {"at":"2026-10-26 01:04","repo":"kaefig","kind":"milestone","title":"Käfig-Arena auf dem starter gebaut","public":true,"en":"Käfig arena built on starter"}
 {"at":"2026-10-26 01:30","repo":"gigpost","kind":"milestone","title":"gigpost gebaut: Agenten legen Venues und Entwürfe an, ich versende","big":true,"public":true,"en":"gigpost built: agents add venues and drafts, I send them"}
 {"at":"2026-10-26 01:47","repo":"savor","kind":"milestone","title":"Wissenschaftliches Schreiben antwortet aus den Quellen, Zitate öffnen das PDF an der Seite"}
-{"at":"2026-10-26 02:04","repo":"musicstreaming-connector","kind":"milestone","title":"Neues Design für Web und App nach freigegebener Vorlage"}
+{"at":"2026-10-26 02:04","repo":"songgate","kind":"milestone","title":"Neues Design für Web und App nach freigegebener Vorlage"}
 {"at":"2026-10-26 15:52","repo":"starter","kind":"milestone","title":"starter auf SvelteKit 3, Vite 8 und TypeScript 6","big":true,"public":true,"en":"starter on SvelteKit 3, Vite 8 and TypeScript 6"}
 {"at":"2026-10-26 16:19","repo":"rea","kind":"milestone","title":"REA hält Ergebnisse als Funktionskarten mit Katalog fest"}
 {"at":"2026-10-26 17:18","repo":"kontor","kind":"move","title":"Headscale und Uptime Kuma ziehen auf VPS 3"}
@@ -168,7 +168,7 @@
 {"at":"2026-10-27 15:39","repo":"kontor","kind":"milestone","title":"Agenten bekommen Secrets nur noch einzeln über with-secret"}
 {"at":"2026-10-27 15:56","repo":"pleasance","kind":"milestone","title":"Teamangebot AI-native Engineering und Apps-Seite auf pleasance.org","big":true,"public":true,"en":"Team offer for AI-native engineering and an apps page on pleasance.org"}
 {"at":"2026-10-27 16:00","repo":"starter","kind":"milestone","title":"Die Startseite des starter ist eine Landingpage-Vorlage","public":true,"en":"The starter's start page is now a landing page template"}
-{"at":"2026-10-27 18:26","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate gibt es auf Deutsch und Englisch, samt iOS-Share-Extension","public":true,"en":"Songgate in German and English, including the iOS share extension"}
+{"at":"2026-10-27 18:26","repo":"songgate","kind":"milestone","title":"Songgate gibt es auf Deutsch und Englisch, samt iOS-Share-Extension","public":true,"en":"Songgate in German and English, including the iOS share extension"}
 {"at":"2026-10-27 19:42","repo":"music-hub","kind":"milestone","title":"Music Hub spricht Englisch, auch in der CLI und den Update-Mails","public":true,"en":"Music Hub speaks English, also in the CLI and the update mails"}
 {"at":"2026-10-27 22:47","repo":"doenerapp","kind":"milestone","title":"Die Döner-Karte zeigt Bewertung und Namen an den Pins, die Suche kennt alle Läden","public":true,"en":"The döner map shows score and name on its pins, and search knows every shop"}
 {"at":"2026-10-27 23:15","repo":"stackarena","kind":"milestone","title":"Stackarena lässt Client-Teams von Go und Rust bis Kotlin und React antreten"}
@@ -178,7 +178,7 @@
 {"at":"2026-10-28 02:14","repo":"music-hub","kind":"milestone","title":"Music Hub erkennt Tempo und Tonart jeder Version und zeigt ein Board nach Produktionsstufe","public":true,"en":"Music Hub detects tempo and key of every version and shows a board by production stage"}
 {"at":"2026-10-28 22:38","repo":"pleasance","kind":"milestone","title":"Ich biete auf pleasance.org Coaching und Training für agentisches Arbeiten an","public":true,"en":"I now offer coaching and training for agentic work on pleasance.org"}
 {"at":"2026-10-28 22:48","repo":"starter","kind":"milestone","title":"Meine Apps nehmen Lightning an: L402 für Agenten, Checkout für Menschen, fertig eingebaut im starter","big":true,"public":true,"en":"My apps take Lightning: L402 for agents and a checkout for people, built into starter"}
-{"at":"2026-10-28 23:07","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate bekommt freiwillige Unterstützer-Käufe, noch hinter einem Schalter"}
+{"at":"2026-10-28 23:07","repo":"songgate","kind":"milestone","title":"Songgate bekommt freiwillige Unterstützer-Käufe, noch hinter einem Schalter"}
 {"at":"2026-10-28 23:15","repo":"savor","kind":"milestone","title":"Savor Cloud: Kundeninstanzen entstehen per Skript auf Hetzner, die erste läuft","big":true}
 {"at":"2026-10-28 23:20","repo":"music-hub","kind":"milestone","title":"Music Hub hat bezahlte Tarife Pro und Studio, per Stripe oder Lightning","big":true}
 {"at":"2026-10-29 00:22","repo":"kontor","kind":"milestone","title":"Fokus ab 30.10.: Agenten arbeiten nur noch an genannten Projekten, die übrigen ruhen in _paused","big":true}
@@ -194,20 +194,20 @@
 {"at":"2026-10-31 20:05","repo":"stackarena","kind":"milestone","title":"Stackarena startet Runde 2 nachts mit Bun, Rust, Go, Dart, Svelte-Electron und neuem TypeScript-Client"}
 {"at":"2026-11-01 02:27","repo":"music-hub","kind":"milestone","title":"Music Hub: Kommentare lassen sich auf dem Handy bedienen, Abhaken mit Rückgängig"}
 {"at":"2026-11-01 09:17","repo":"kontor","kind":"move","title":"VPS 4 abgeschaltet, private Repos bauen wieder auf GitHub-Runnern","big":true}
-{"at":"2026-11-02 12:16","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate-Web läuft auf SvelteKit 3, Vite 8 und TypeScript 6"}
+{"at":"2026-11-02 12:16","repo":"songgate","kind":"milestone","title":"Songgate-Web läuft auf SvelteKit 3, Vite 8 und TypeScript 6"}
 {"at":"2026-11-02 12:17","repo":"music-hub","kind":"milestone","title":"Music-Hub-CLI kann Tracks, Versionen mit Up- und Download, Kommentare und Reviews"}
 {"at":"2026-11-02 16:49","repo":"postgres-pgbackrest","kind":"milestone","title":"Ich habe ein eigenes PostgreSQL-16-Image mit pgBackRest gebaut, die Wiederherstellung auf jeden Zeitpunkt ist geprüft","public":true,"en":"I built my own PostgreSQL 16 image with pgBackRest and tested point-in-time recovery"}
 {"at":"2026-11-02 17:03","repo":"doenerapp","kind":"milestone","title":"Die Döner App schickt Pushes bei Freundschaftsanfragen und Reaktionen","public":true,"en":"The Döner app sends push notifications for friend requests and reactions"}
 {"at":"2026-11-02 17:11","repo":"music-hub","kind":"milestone","title":"Music Hub baut aus Stems automatisch Mix-Versionen","big":true,"public":true,"en":"Music Hub builds mix versions from stems automatically"}
 {"at":"2026-11-03 02:35","repo":"rea","kind":"milestone","title":"REA-Restkette: Ableton Live, Avid Link, Neutron, Native Access, Screen Studio und DaVinci Resolve analysiert"}
 {"at":"2026-11-04 00:46","repo":"savor","kind":"milestone","title":"In Savor arbeitet OpenCode jetzt im Auto-Modus, ein Modell prüft die Rechte","public":true,"en":"OpenCode now runs in auto mode in Savor, with a model reviewing its permissions"}
-{"at":"2026-11-04 09:05","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate geht als 1.0.1 live"}
+{"at":"2026-11-04 09:05","repo":"songgate","kind":"milestone","title":"Songgate geht als 1.0.1 live"}
 {"at":"2026-11-04 14:01","repo":"music-hub","kind":"milestone","title":"Music Hub nimmt jede Datei überall an und erkennt Spuren an ihrer Länge","big":true,"public":true,"en":"Music Hub accepts any file anywhere and recognizes tracks by their length"}
 {"at":"2026-11-04 16:43","repo":"starter","kind":"milestone","title":"Meine Apps passen sich Foldables, Tablets und wechselnden Fenstergrößen an","big":true,"public":true,"en":"My apps adapt to foldables, tablets and changing window sizes"}
 {"at":"2026-11-05 08:10","repo":"rea","kind":"milestone","title":"REA: Headspace und Pilates Anytime analysiert"}
-{"at":"2026-11-05 09:59","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate hat Nutzungsbedingungen"}
-{"at":"2026-11-05 10:48","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate kann TIDAL und sucht bei Amazon Music","public":true,"en":"I added TIDAL and an Amazon Music search to Songgate"}
-{"at":"2026-11-05 12:40","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate teilt Podcasts und Folgen","public":true,"en":"I taught Songgate to share podcasts and episodes across Apple Podcasts, Spotify, Deezer and YouTube Music"}
+{"at":"2026-11-05 09:59","repo":"songgate","kind":"milestone","title":"Songgate hat Nutzungsbedingungen"}
+{"at":"2026-11-05 10:48","repo":"songgate","kind":"milestone","title":"Songgate kann TIDAL und sucht bei Amazon Music","public":true,"en":"I added TIDAL and an Amazon Music search to Songgate"}
+{"at":"2026-11-05 12:40","repo":"songgate","kind":"milestone","title":"Songgate teilt Podcasts und Folgen","public":true,"en":"I taught Songgate to share podcasts and episodes across Apple Podcasts, Spotify, Deezer and YouTube Music"}
 {"at":"2026-11-08 17:27","repo":"music-hub","kind":"milestone","title":"Music Hub hat einen Blindtest für Versionen","public":true,"en":"I added a blind test to Music Hub, so you pick the better mix without knowing which version it is"}
 {"at":"2026-11-09 13:40","repo":"doenerapp","kind":"milestone","title":"Die Döner-App heißt jetzt Lieblingsdöner","public":true,"en":"I renamed the Döner app to Lieblingsdöner"}
 {"at":"2026-11-09 13:31","repo":"music-hub","kind":"milestone","title":"Music Hub lockt mit Empfehlungen: beide Seiten bekommen freie Plantage","public":true,"en":"I added referrals to Music Hub, both sides get free plan days once a referred account pays"}
@@ -227,7 +227,8 @@
 {"at":"2026-11-11 23:42","repo":"musichub-sync","kind":"milestone","title":"Sync zeigt den Fortschritt beim Hoch- und Runterladen (0.2.0)"}
 {"at":"2026-11-12 00:00","repo":"records359","kind":"milestone","title":"Musik-Archiv neu geordnet: Künstler, Release, Song, gleich auf pi-a, Mac und Music Hub","big":true}
 {"at":"2026-11-12 23:30","repo":"doenerapp","kind":"milestone","title":"Lieblingsdöner bewertet die Größe, rankt nach Preis-Leistung und filtert Halal und selbst gesteckten Spieß","public":true,"en":"I taught Lieblingsdöner to rate portion size, rank by value for money and filter for halal meat and homemade skewers"}
-{"at":"2026-11-12 10:06","repo":"musicstreaming-connector","kind":"milestone","title":"Songgate öffnet seine Teilen- und Einladungslinks auf iOS direkt in der App"}
+{"at":"2026-11-12 10:06","repo":"songgate","kind":"milestone","title":"Songgate öffnet seine Teilen- und Einladungslinks auf iOS direkt in der App"}
 {"at":"2026-11-12 23:01","repo":"starter","kind":"milestone","title":"Das Farbband unter der Wortmarke wird zum Dock der Pleasance-Apps, im Web und in Flutter","public":true,"en":"I turned the colour band under the Pleasance wordmark into a dock of all my apps, on the web and in Flutter"}
 {"at":"2026-11-12 23:46","repo":"stackarena","kind":"milestone","title":"Stackarena Runde 1 ausgewertet: 15 Läufe"}
 {"at":"2026-11-12 23:47","repo":"pinna","kind":"milestone","title":"Pinna archiviert: Die Messungen ziehen nach Music Hub, Robin arbeitet wieder in Logic Pro","big":true}
+{"at":"2026-11-13 16:56","repo":"savor","kind":"milestone","title":"Savor installiert man jetzt mit einer Zeile: per Homebrew auf dem Mac, per Skript unter Linux und auf dem eigenen Server","public":true,"en":"I cut installing Savor down to one line: Homebrew on the Mac, a script on Linux and on your own server"}

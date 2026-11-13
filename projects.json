@@ -75,7 +75,7 @@
     "name": "Starter",
     "color": "band"
   },
-  "musicstreaming-connector": {
+  "songgate": {
     "name": "Songgate",
     "color": "#64CC9E"
   },
