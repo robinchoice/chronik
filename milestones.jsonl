@@ -236,3 +236,7 @@
 {"at":"2026-11-13 19:54","repo":"music-hub","kind":"milestone","title":"Songs in Music Hub wie Ordner aufräumen: verschieben, zusammenführen und mehrfach auswählen"}
 {"at":"2026-11-13 14:59","repo":"songgate","kind":"milestone","title":"Songgate ist weltweit im App Store und bei Google Play, auch in der EU","big":true,"public":true,"en":"Songgate is now live worldwide on the App Store and Google Play, including the EU"}
 {"at":"2026-11-13 18:31","repo":"savor","kind":"milestone","title":"Neue Savor-Landingpage: dunkel, nummerierte Schritte, echte App-Bilder und eine deutsche Fassung unter /de/"}
+{"at":"2026-11-14 10:30","repo":"kontor","kind":"milestone","title":"Agent-Setup bereit für einen eigenen Agent-Rechner ohne Bildschirm, mit Installationsskript für die Toolchain"}
+{"at":"2026-11-14 10:46","repo":"savor","kind":"milestone","title":"Savor ohne Grok und Antigravity: weniger Anbieter, schlankerer Kern"}
+{"at":"2026-11-14 11:19","repo":"starter","kind":"milestone","title":"Neuer Standard: deutsche Texte so formuliert, dass sie kein Gendern brauchen"}
+{"at":"2026-11-14 11:22","repo":"songgate","kind":"milestone","title":"Songgate bekommt eine Landingpage mit Store-Badges, Web-Konverter und App werden schlanker","big":true}
