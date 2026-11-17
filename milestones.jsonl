@@ -246,3 +246,5 @@
 {"at":"2026-11-16 14:24","repo":"music-hub","kind":"milestone","title":"Music Hub schlägt ähnliche Tracks vor, bevor ein Upload eine Dublette anlegt","public":true,"en":"Music Hub now suggests similar tracks before an upload creates a duplicate"}
 {"at":"2026-11-16 17:35","repo":"savor","kind":"milestone","title":"Savor reicht eine Anfrage bei Limit oder Login-Fehler in alle Richtungen an den nächsten Agenten weiter","big":true}
 {"at":"2026-11-16 17:38","repo":"kontor","kind":"milestone","title":"Nacht-Review und Claude-Audit wechseln am Limit den Anbieter, statt stundenlang zu warten"}
+{"at":"2026-11-17 15:30","repo":"songgate","kind":"milestone","title":"Songgate hat einen neuen Einzeiler: „Musik teilen, egal wer was hört.“","public":true,"en":"Songgate has a new tagline: “Share music, whatever they listen on.”"}
+{"at":"2026-11-17 15:59","repo":"kontor","kind":"milestone","title":"secret-add läuft künftig am Mac: Die Tresore bleiben dort, der Wert geht per SSH-Pipe auf den Agent-Host"}
