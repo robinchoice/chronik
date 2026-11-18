@@ -250,3 +250,7 @@
 {"at":"2026-11-17 15:59","repo":"kontor","kind":"milestone","title":"secret-add läuft künftig am Mac: Die Tresore bleiben dort, der Wert geht per SSH-Pipe auf den Agent-Host"}
 {"at":"2026-11-18 12:45","repo":"music-hub","kind":"milestone","title":"Music Hub wechselt zwischen mehreren Konten im selben Browser, wie bei Instagram","public":true,"en":"Music Hub switches between several accounts in one browser, like Instagram"}
 {"at":"2026-11-18 18:40","repo":"music-hub","kind":"milestone","title":"Music Hub lädt ganze Ordner hoch: ein Ordner mit Multitracks wird ein Song mit dem Namen des Ordners","public":true,"en":"Music Hub uploads whole folders: a folder of multitracks becomes a song named after it"}
+{"at":"2026-11-18 11:23","repo":"savor","kind":"milestone","title":"Die Cloud-Pilotinstanz ist auf einem neuen Server mit Sandbox und festem Release-Pin aufgebaut"}
+{"at":"2026-11-18 17:23","repo":"kontor","kind":"milestone","title":"Musik vom Mac kann als ganzer Release aus dem Archiv zurückgeholt und als neue Fassung archiviert werden"}
+{"at":"2026-11-18 18:01","repo":"kontor","kind":"milestone","title":"Der UX-Tag vertieft eine App bis zu den realen Abläufen und ersetzt die einzelne UX-Kritik"}
+{"at":"2026-11-18 22:47","repo":"kontor","kind":"milestone","title":"Architektur-Tag: starter, Döner, Savor, Songgate und Music Hub geprüft; kleine Umbauten ausgeliefert, Verhaltensfragen vorgelegt","big":true}
