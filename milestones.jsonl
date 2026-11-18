@@ -249,3 +249,4 @@
 {"at":"2026-11-17 15:30","repo":"songgate","kind":"milestone","title":"Songgate hat einen neuen Einzeiler: „Musik teilen, egal wer was hört.“","public":true,"en":"Songgate has a new tagline: “Share music, whatever they listen on.”"}
 {"at":"2026-11-17 15:59","repo":"kontor","kind":"milestone","title":"secret-add läuft künftig am Mac: Die Tresore bleiben dort, der Wert geht per SSH-Pipe auf den Agent-Host"}
 {"at":"2026-11-18 12:45","repo":"music-hub","kind":"milestone","title":"Music Hub wechselt zwischen mehreren Konten im selben Browser, wie bei Instagram","public":true,"en":"Music Hub switches between several accounts in one browser, like Instagram"}
+{"at":"2026-11-18 18:40","repo":"music-hub","kind":"milestone","title":"Music Hub lädt ganze Ordner hoch: ein Ordner mit Multitracks wird ein Song mit dem Namen des Ordners","public":true,"en":"Music Hub uploads whole folders: a folder of multitracks becomes a song named after it"}
