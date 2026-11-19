@@ -255,3 +255,6 @@
 {"at":"2026-11-18 18:01","repo":"kontor","kind":"milestone","title":"Der UX-Tag vertieft eine App bis zu den realen Abläufen und ersetzt die einzelne UX-Kritik"}
 {"at":"2026-11-18 22:47","repo":"kontor","kind":"milestone","title":"Architektur-Tag: starter, Döner, Savor, Songgate und Music Hub geprüft; kleine Umbauten ausgeliefert, Verhaltensfragen vorgelegt","big":true}
 {"at":"2026-11-19 10:45","repo":"music-hub","kind":"milestone","title":"Ich habe Music Hub als Pilot lesend an KI-Chat-Clients angebunden (MCP mit OAuth)","public":true,"en":"I connected Music Hub to AI chat clients as a read-only pilot (MCP with OAuth)"}
+{"at":"2026-11-19 11:18","repo":"starter","kind":"milestone","title":"Kontraste der Farbfamilien sind jetzt ein Test, dazu ein einheitlicher Fokusring als Standard"}
+{"at":"2026-11-19 11:23","repo":"robin-work","kind":"milestone","title":"Bewerbung als Trainer für agentisches Arbeiten bei Letsboot eingereicht"}
+{"at":"2026-11-19 12:49","repo":"doenerapp","kind":"milestone","title":"Döner bekommt den neuen Feed, das neue Essensrad und private Kommentare","big":true}
