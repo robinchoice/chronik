@@ -239,12 +239,12 @@
 {"at":"2026-11-14 10:30","repo":"kontor","kind":"milestone","title":"Agent-Setup bereit für einen eigenen Agent-Rechner ohne Bildschirm, mit Installationsskript für die Toolchain"}
 {"at":"2026-11-14 10:46","repo":"savor","kind":"milestone","title":"Savor ohne Grok und Antigravity: weniger Anbieter, schlankerer Kern"}
 {"at":"2026-11-14 11:19","repo":"starter","kind":"milestone","title":"Neuer Standard: deutsche Texte so formuliert, dass sie kein Gendern brauchen"}
-{"at":"2026-11-14 11:22","repo":"songgate","kind":"milestone","title":"Songgate bekommt eine Landingpage mit Store-Badges, Web-Konverter und App werden schlanker","big":true}
+{"at":"2026-11-14 11:22","repo":"songgate","kind":"milestone","title":"Songgate hat eine Landingpage mit Store-Badges, Web-Konverter und App sind schlanker geworden","big":true,"en":"Songgate has a landing page with store badges, and the web converter and app got leaner","public":true}
 {"at":"2026-11-16 13:48","repo":"kontor","kind":"milestone","title":"Admin-Tag: alle Server, Proxmox und Pi-holes aktualisiert und neu gestartet, Gitea mit Sicherheitsupdate"}
 {"at":"2026-11-16 14:04","repo":"lighthouse","kind":"milestone","title":"Lighthouse läuft auf SvelteKit 3, Vite 8 und TypeScript 6"}
 {"at":"2026-11-16 14:19","repo":"kontor","kind":"milestone","title":"store-submit bringt eine iOS-Version per Skript bis zur App-Store-Prüfung"}
 {"at":"2026-11-16 14:24","repo":"music-hub","kind":"milestone","title":"Music Hub schlägt ähnliche Tracks vor, bevor ein Upload eine Dublette anlegt","public":true,"en":"Music Hub now suggests similar tracks before an upload creates a duplicate"}
-{"at":"2026-11-16 17:35","repo":"savor","kind":"milestone","title":"Savor reicht eine Anfrage bei Limit oder Login-Fehler in alle Richtungen an den nächsten Agenten weiter","big":true}
+{"at":"2026-11-16 17:35","repo":"savor","kind":"milestone","title":"Savor gibt eine Anfrage am Limit oder bei einem Login-Fehler an den nächsten Agenten weiter","big":true,"en":"Savor hands a request on to the next agent when one hits its limit or fails to log in","public":true}
 {"at":"2026-11-16 17:38","repo":"kontor","kind":"milestone","title":"Nacht-Review und Claude-Audit wechseln am Limit den Anbieter, statt stundenlang zu warten"}
 {"at":"2026-11-17 15:30","repo":"songgate","kind":"milestone","title":"Songgate hat einen neuen Einzeiler: „Musik teilen, egal wer was hört.“","public":true,"en":"Songgate has a new tagline: “Share music, whatever they listen on.”"}
 {"at":"2026-11-17 15:59","repo":"kontor","kind":"milestone","title":"secret-add läuft künftig am Mac: Die Tresore bleiben dort, der Wert geht per SSH-Pipe auf den Agent-Host"}
