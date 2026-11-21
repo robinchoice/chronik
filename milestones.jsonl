@@ -261,3 +261,6 @@
 {"at":"2026-11-20 11:36","repo":"savor","kind":"milestone","title":"Savor-Leistungsrunde: Chat, Vorschau, Listen und Nutzungsabfragen arbeiten deutlich sparsamer, hängende Agent-Starts werden erkannt"}
 {"at":"2026-11-20 12:21","repo":"starter","kind":"milestone","title":"Checkliste vor dem ersten Store-Release als starter-Standard"}
 {"at":"2026-11-20 16:32","repo":"robin-work","kind":"milestone","title":"Bewerbungsunterlagen für Haufe, Lexware und YOO ausgearbeitet"}
+{"at":"2026-11-21 14:48","repo":"kontor","kind":"milestone","title":"Lagekarte: sonntags wenige Signale der Woche aus ausgewählten Feeds statt Nachrichtenflut"}
+{"at":"2026-11-21 16:41","repo":"rea","kind":"milestone","title":"REA-Standard auf 6.10.1 mit Ghidra 12.2 und JDK 25"}
+{"at":"2026-11-21 18:35","repo":"rea","kind":"milestone","title":"REA: Alfred 6, 66 Padel und SteelSeries GG analysiert"}
