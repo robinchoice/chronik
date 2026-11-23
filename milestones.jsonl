@@ -264,3 +264,4 @@
 {"at":"2026-11-21 14:48","repo":"kontor","kind":"milestone","title":"Lagekarte: sonntags wenige Signale der Woche aus ausgewählten Feeds statt Nachrichtenflut"}
 {"at":"2026-11-21 16:41","repo":"rea","kind":"milestone","title":"REA-Standard auf 6.10.1 mit Ghidra 12.2 und JDK 25"}
 {"at":"2026-11-21 18:35","repo":"rea","kind":"milestone","title":"REA: Alfred 6, 66 Padel und SteelSeries GG analysiert"}
+{"at":"2026-11-23 10:47","repo":"pleasance","kind":"milestone","title":"Angebotsseite Agenten-Integration: Ich setze Abläufe mit Agenten um und betreue sie im Monatsabo","big":true,"public":true,"en":"Agent integration offer page: I build workflows with agents and look after them on a monthly plan"}
