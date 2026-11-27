@@ -3,7 +3,7 @@
 # chronik-tailnet in /data/coolify/proxy/dynamic/tailnet-only.yaml.
 services:
   chronik:
-    image: nginx:1.30.5-alpine
+    image: nginx:1.30.8-alpine
     environment:
       - SERVICE_URL_CHRONIK_80
     volumes:
