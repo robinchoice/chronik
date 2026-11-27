@@ -268,3 +268,4 @@
 {"at":"2026-11-26 16:20","repo":"music-hub","kind":"milestone","title":"Music Hub: Studios zeigen Logo und Namen auf der Kundenseite ihrer Aufträge","public":true,"en":"Music Hub: studios show their logo and name on the client page of their orders"}
 {"at":"2026-11-26 16:48","repo":"songgate","kind":"milestone","title":"Songgate: Kontakte per Telefonnummer finden, ohne dass der Server eine Nummer sieht","big":true}
 {"at":"2026-11-26 22:49","repo":"savor","kind":"milestone","title":"Savor: Warm-Standby, eine Savor-Cloud-Instanz übernimmt, wenn der Rechner zu Hause ausfällt"}
+{"at":"2026-11-27 13:30","repo":"music-hub","kind":"milestone","title":"Music Hub: Spuren als Ableton-Projekt laden, ab Takt 1 mit Tempo und Kommentaren als Locators"}
